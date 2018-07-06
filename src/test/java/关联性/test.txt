@@ -10,6 +10,8 @@ INSERT INTO CEN_ETL_V20.T_DIM_DQ_EVA_INDICATOR (GZBH, GZMCH, ZHSHSHM, KHZHTBH, K
 
 
 
+
+
 INSERT INTO CEN_ETL_V20.T_DIM_DQ_EVA_INDICATOR (GZBH, GZMCH, ZHSHSHM, KHZHTBH, KHZHTMCH, JCBM, JCBMSHM, ZBQZH, KHBZ, XGSHJ, JCBM1, SJKYHM) VALUES ('5019', '住院医嘱明细表（tb_cis_ih_doctor_advice） 关联 住院就诊记录表', '住院医嘱明细表中的就诊唯一标识（就诊流水号）是否能与住院就诊记录表关联', '5', '关联性', 'tb_cis_ih_doctor_advice', '住院医嘱明细表', 2, '1', null, null, 'rhin_tr');
 INSERT INTO CEN_ETL_V20.T_DIM_DQ_EVA_INDICATOR (GZBH, GZMCH, ZHSHSHM, KHZHTBH, KHZHTMCH, JCBM, JCBMSHM, ZBQZH, KHBZ, XGSHJ, JCBM1, SJKYHM) VALUES ('5020', '收费表（tb_cis_lh_fee_record） 住院就诊记录表', '收费表的就诊唯一标识（就诊流水号）是否能与住院就诊记录表关联', '5', '关联性', 'tb_cis_lh_fee_record', '收费表', 2, '1', null, null, 'rhin_tr');
 INSERT INTO CEN_ETL_V20.T_DIM_DQ_EVA_INDICATOR (GZBH, GZMCH, ZHSHSHM, KHZHTBH, KHZHTMCH, JCBM, JCBMSHM, ZBQZH, KHBZ, XGSHJ, JCBM1, SJKYHM) VALUES ('5021', '住院费用结算明细表（tb_cis_lh_fee_detail） 关联 住院就诊记录表', '住院费用结算明细表中的就诊唯一标识（就诊流水号）是否能与住院就诊记录表关联', '5', '关联性', 'tb_cis_lh_fee_detail', '住院费用结算明细表', 2, '1', null, null, 'rhin_tr');
