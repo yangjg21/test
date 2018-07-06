@@ -1,0 +1,73 @@
+1.1.1.1	精神病家族史记录表(SCHIZOPHRENIA_FAMILY_HIS)
+
+
+数据项
+精神病家族史记录编号
+机构代码
+机构名称
+健康档案编号
+身份证号码
+精神分裂症患者档案标识号
+有无精神病家族史代码
+有无精神病家族史代码名称
+家族患者与患者关系代码
+家族患者与患者关系名称
+家族史精神病详述
+家族患者的治疗结果代码
+家族患者的治疗结果代码名称
+备注
+
+
+字段名
+FAMILY_HISTORY_ID
+MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_NAME
+BASIC_PERSONAL_INFO_NO
+ID_NUMBER
+SCHIZOPHRENIA_FILE_NUMBER
+HAS_FAMILY_HISTORY
+HAS_FAMILY_HISTORY_NAME
+FAMILY_PATIENT_RELAT_CODE
+FAMILY_PATIENT_RELAT_NAME
+FAMILY_PATIENT_RELAT_DESC
+FAMILY_PATIENT_CURE_RES_CODE
+FAMILY_PATIENT_CURE_RES_NAME
+REMARKS
+
+
+
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100001', '精神病家族史记录编号FAMILY_HISTORY_ID非空率', '1', '201033', 'FAMILY_HISTORY_ID', 'FAMILY_HISTORY_ID', null, null, null, 'WHERE TRIM(FAMILY_HISTORY_ID) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100002', '机构代码MEDICAL_INSTITUTION_CODE非空率', '1', '201033', 'MEDICAL_INSTITUTION_CODE', 'MEDICAL_INSTITUTION_CODE', null, null, null, 'WHERE TRIM(MEDICAL_INSTITUTION_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100003', '机构名称MEDICAL_INSTITUTION_NAME非空率', '1', '201033', 'MEDICAL_INSTITUTION_NAME', 'MEDICAL_INSTITUTION_NAME', null, null, null, 'WHERE TRIM(MEDICAL_INSTITUTION_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100004', '健康档案编号BASIC_PERSONAL_INFO_NO非空率', '1', '201033', 'BASIC_PERSONAL_INFO_NO', 'BASIC_PERSONAL_INFO_NO', null, null, null, 'WHERE TRIM(BASIC_PERSONAL_INFO_NO) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100005', '身份证号码ID_NUMBER非空率', '1', '201033', 'ID_NUMBER', 'ID_NUMBER', null, null, null, 'WHERE TRIM(ID_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100006', '精神分裂症患者档案标识号SCHIZOPHRENIA_FILE_NUMBER非空率', '1', '201033', 'SCHIZOPHRENIA_FILE_NUMBER', 'SCHIZOPHRENIA_FILE_NUMBER', null, null, null, 'WHERE TRIM(SCHIZOPHRENIA_FILE_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100007', '有无精神病家族史代码HAS_FAMILY_HISTORY非空率', '1', '201033', 'HAS_FAMILY_HISTORY', 'HAS_FAMILY_HISTORY', null, null, null, 'WHERE TRIM(HAS_FAMILY_HISTORY) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100008', '有无精神病家族史代码名称HAS_FAMILY_HISTORY_NAME非空率', '1', '201033', 'HAS_FAMILY_HISTORY_NAME', 'HAS_FAMILY_HISTORY_NAME', null, null, null, 'WHERE TRIM(HAS_FAMILY_HISTORY_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100009', '家族患者与患者关系代码FAMILY_PATIENT_RELAT_CODE非空率', '1', '201033', 'FAMILY_PATIENT_RELAT_CODE', 'FAMILY_PATIENT_RELAT_CODE', null, null, null, 'WHERE TRIM(FAMILY_PATIENT_RELAT_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100010', '家族患者与患者关系名称FAMILY_PATIENT_RELAT_NAME非空率', '1', '201033', 'FAMILY_PATIENT_RELAT_NAME', 'FAMILY_PATIENT_RELAT_NAME', null, null, null, 'WHERE TRIM(FAMILY_PATIENT_RELAT_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100011', '家族史精神病详述FAMILY_PATIENT_RELAT_DESC非空率', '1', '201033', 'FAMILY_PATIENT_RELAT_DESC', 'FAMILY_PATIENT_RELAT_DESC', null, null, null, 'WHERE TRIM(FAMILY_PATIENT_RELAT_DESC) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100012', '家族患者的治疗结果代码FAMILY_PATIENT_CURE_RES_CODE非空率', '1', '201033', 'FAMILY_PATIENT_CURE_RES_CODE', 'FAMILY_PATIENT_CURE_RES_CODE', null, null, null, 'WHERE TRIM(FAMILY_PATIENT_CURE_RES_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100013', '家族患者的治疗结果代码名称FAMILY_PATIENT_CURE_RES_NAME非空率', '1', '201033', 'FAMILY_PATIENT_CURE_RES_NAME', 'FAMILY_PATIENT_CURE_RES_NAME', null, null, null, 'WHERE TRIM(FAMILY_PATIENT_CURE_RES_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100014', '备注REMARKS非空率', '1', '201033', 'REMARKS', 'REMARKS', null, null, null, 'WHERE TRIM(REMARKS) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201033100015', '家族患者的治疗结果代码FAMILY_PATIENT_CURE_RES_CODE规范率', '2', '201033', 'FAMILY_PATIENT_CURE_RES_CODE', 'FAMILY_PATIENT_CURE_RES_CODE', 'TB_EHR_DICTIONARY', 'CV05.10.010', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV05.10.010'' AND A.VALUE=T.FAMILY_PATIENT_CURE_RES_CODE) AND T.FAMILY_PATIENT_CURE_RES_CODE IS NOT NULL', '3', '不在字典CV05.10.010范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+
+
+家族患者的治疗结果代码FAMILY_PATIENT_CURE_RES_CODE
+FAMILY_PATIENT_CURE_RES_CODE
+CV05.10.010

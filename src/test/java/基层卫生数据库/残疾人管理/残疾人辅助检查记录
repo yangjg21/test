@@ -1,0 +1,75 @@
+1.1.1	残疾人辅助检查记录(DISABLED_ACCESSORY_TEST)
+
+
+数据项
+必填检测流水号
+必填检测机构代码
+必填检测机构名称
+必填残疾人档案标识号
+必填随访编号
+必填身份证号码
+必填检测日期
+必填检查/检验-类别代码
+必填检查/检验-项目代码
+必填检查/检验-项目名称
+必填检查/检验-结果代码
+必填检查/检验-结果（定性）
+必填检测人工号
+必填检测人姓名
+必填审核人工号
+必填审核人姓名
+
+字段名
+必填TEST_SERIAL_NUMBER
+必填TEST_INSTITUTION_CODE
+必填TEST_INSTITUTION_NAME
+必填DISABLED_FILE_NUMBER
+必填FOLLOW_UP_NUMBER
+必填ID_NUMBER
+必填TEST_DATE
+必填TEST_TYPE_CODE
+必填TEST_ITEM_CODE
+必填TEST_ITEM_NAME
+必填TEST_RESULT_CODE
+必填QUALITATIVE_TEST_RESULT
+必填TEST_STAFF_NO
+必填TEST_STAFF_NAME
+必填CHECK_STAFF_NO
+必填CHECK_STAFF_NAME
+
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100001', '检测流水号TEST_SERIAL_NUMBER非空率', '1', '201044', 'TEST_SERIAL_NUMBER', 'TEST_SERIAL_NUMBER', null, null, null, 'WHERE TRIM(TEST_SERIAL_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100002', '检测机构代码TEST_INSTITUTION_CODE非空率', '1', '201044', 'TEST_INSTITUTION_CODE', 'TEST_INSTITUTION_CODE', null, null, null, 'WHERE TRIM(TEST_INSTITUTION_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100003', '检测机构名称TEST_INSTITUTION_NAME非空率', '1', '201044', 'TEST_INSTITUTION_NAME', 'TEST_INSTITUTION_NAME', null, null, null, 'WHERE TRIM(TEST_INSTITUTION_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100004', '残疾人档案标识号DISABLED_FILE_NUMBER非空率', '1', '201044', 'DISABLED_FILE_NUMBER', 'DISABLED_FILE_NUMBER', null, null, null, 'WHERE TRIM(DISABLED_FILE_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100005', '随访编号FOLLOW_UP_NUMBER非空率', '1', '201044', 'FOLLOW_UP_NUMBER', 'FOLLOW_UP_NUMBER', null, null, null, 'WHERE TRIM(FOLLOW_UP_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100006', '身份证号码ID_NUMBER非空率', '1', '201044', 'ID_NUMBER', 'ID_NUMBER', null, null, null, 'WHERE TRIM(ID_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100007', '检测日期TEST_DATE非空率', '1', '201044', 'TEST_DATE', 'TEST_DATE', null, null, null, 'WHERE TRIM(TEST_DATE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100008', '检查/检验-类别代码TEST_TYPE_CODE非空率', '1', '201044', 'TEST_TYPE_CODE', 'TEST_TYPE_CODE', null, null, null, 'WHERE TRIM(TEST_TYPE_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100009', '检查/检验-项目代码TEST_ITEM_CODE非空率', '1', '201044', 'TEST_ITEM_CODE', 'TEST_ITEM_CODE', null, null, null, 'WHERE TRIM(TEST_ITEM_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100010', '检查/检验-项目名称TEST_ITEM_NAME非空率', '1', '201044', 'TEST_ITEM_NAME', 'TEST_ITEM_NAME', null, null, null, 'WHERE TRIM(TEST_ITEM_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100011', '检查/检验-结果代码TEST_RESULT_CODE非空率', '1', '201044', 'TEST_RESULT_CODE', 'TEST_RESULT_CODE', null, null, null, 'WHERE TRIM(TEST_RESULT_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100012', '检查/检验-结果（定性）QUALITATIVE_TEST_RESULT非空率', '1', '201044', 'QUALITATIVE_TEST_RESULT', 'QUALITATIVE_TEST_RESULT', null, null, null, 'WHERE TRIM(QUALITATIVE_TEST_RESULT) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100013', '检测人工号TEST_STAFF_NO非空率', '1', '201044', 'TEST_STAFF_NO', 'TEST_STAFF_NO', null, null, null, 'WHERE TRIM(TEST_STAFF_NO) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100014', '检测人姓名TEST_STAFF_NAME非空率', '1', '201044', 'TEST_STAFF_NAME', 'TEST_STAFF_NAME', null, null, null, 'WHERE TRIM(TEST_STAFF_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100015', '审核人工号CHECK_STAFF_NO非空率', '1', '201044', 'CHECK_STAFF_NO', 'CHECK_STAFF_NO', null, null, null, 'WHERE TRIM(CHECK_STAFF_NO) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100016', '审核人姓名CHECK_STAFF_NAME非空率', '1', '201044', 'CHECK_STAFF_NAME', 'CHECK_STAFF_NAME', null, null, null, 'WHERE TRIM(CHECK_STAFF_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100017', '检查/检验-类别代码TEST_TYPE_CODE规范率', '2', '201044', 'TEST_TYPE_CODE', 'TEST_TYPE_CODE', 'TB_EHR_DICTIONARY', 'CV5199.01', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV5199.01'' AND A.VALUE=T.TEST_TYPE_CODE) AND T.TEST_TYPE_CODE IS NOT NULL', '3', '不在字典CV5199.01范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201044100018', '检查/检验-结果代码TEST_RESULT_CODE规范率', '2', '201044', 'TEST_RESULT_CODE', 'TEST_RESULT_CODE', 'TB_EHR_DICTIONARY', 'GZCV5103.02', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5103.02'' AND A.VALUE=T.TEST_RESULT_CODE) AND T.TEST_RESULT_CODE IS NOT NULL', '3', '不在字典GZCV5103.02范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));

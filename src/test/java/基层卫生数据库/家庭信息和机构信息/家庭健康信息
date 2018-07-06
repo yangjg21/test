@@ -1,0 +1,112 @@
+1.1.1	家庭健康信息(FAMILY_HEALTH_INFORMATION)
+
+
+数据项
+家庭信息标识号FAMILY_INFO_NO非空率
+登记机构编码REGISTRATION_INSTITUTION_CODE非空率
+登记机构名称REGISTRATION_INSTITUTION_NAME非空率
+户主个人基本信息标识号HOUSEHOLDER_INFO_NO非空率
+身份证号码ID_NUMBER非空率
+家庭电话FAMILY_PHONE_NUMBER非空率
+家庭所属区县编码COUNTY_CODE_OF_FAMILY非空率
+家庭所属街道编码STREET_CODE_OF_FAMILY非空率
+家庭所属居委编码RESIDENTIAL_COMMITTEE_CODE非空率
+家庭所属社区编码COMMUNITY_CODE非空率
+家庭详细地址DETAIL_FAMILY_ADDRESS非空率
+邮政编码POSTCODE非空率
+责任医生姓名RESPONSIBLE_DOCTOR_NAME非空率
+责任医生工号RESPONSIBLE_DOCTOR_ID非空率
+是否签约SIGNING非空率
+家庭档案状态FAMILY_FILE_STATUS非空率
+调查人工号SURVEY_STAFF_NO非空率
+调查人姓名SURVEY_NAME非空率
+调查日期SURVEY_DATE非空率
+
+
+字段名
+非空率FAMILY_INFO_NO
+非空率REGISTRATION_INSTITUTION_CODE
+非空率REGISTRATION_INSTITUTION_NAME
+非空率HOUSEHOLDER_INFO_NO
+非空率ID_NUMBER
+非空率FAMILY_PHONE_NUMBER
+非空率COUNTY_CODE_OF_FAMILY
+非空率STREET_CODE_OF_FAMILY
+非空率RESIDENTIAL_COMMITTEE_CODE
+非空率COMMUNITY_CODE
+非空率DETAIL_FAMILY_ADDRESS
+非空率POSTCODE
+非空率RESPONSIBLE_DOCTOR_NAME
+非空率RESPONSIBLE_DOCTOR_ID
+非空率SIGNING
+非空率FAMILY_FILE_STATUS
+非空率SURVEY_STAFF_NO
+非空率SURVEY_NAME
+非空率SURVEY_DATE
+
+
+填报要求
+
+
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100001', '家庭信息标识号FAMILY_INFO_NO非空率', '1', '201067', 'FAMILY_INFO_NO', 'FAMILY_INFO_NO', null, null, null, 'WHERE TRIM(FAMILY_INFO_NO) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100002', '登记机构编码REGISTRATION_INSTITUTION_CODE非空率', '1', '201067', 'REGISTRATION_INSTITUTION_CODE', 'REGISTRATION_INSTITUTION_CODE', null, null, null, 'WHERE TRIM(REGISTRATION_INSTITUTION_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100003', '登记机构名称REGISTRATION_INSTITUTION_NAME非空率', '1', '201067', 'REGISTRATION_INSTITUTION_NAME', 'REGISTRATION_INSTITUTION_NAME', null, null, null, 'WHERE TRIM(REGISTRATION_INSTITUTION_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100004', '户主个人基本信息标识号HOUSEHOLDER_INFO_NO非空率', '1', '201067', 'HOUSEHOLDER_INFO_NO', 'HOUSEHOLDER_INFO_NO', null, null, null, 'WHERE TRIM(HOUSEHOLDER_INFO_NO) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100005', '身份证号码ID_NUMBER非空率', '1', '201067', 'ID_NUMBER', 'ID_NUMBER', null, null, null, 'WHERE TRIM(ID_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100006', '家庭电话FAMILY_PHONE_NUMBER非空率', '1', '201067', 'FAMILY_PHONE_NUMBER', 'FAMILY_PHONE_NUMBER', null, null, null, 'WHERE TRIM(FAMILY_PHONE_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100007', '家庭所属区县编码COUNTY_CODE_OF_FAMILY非空率', '1', '201067', 'COUNTY_CODE_OF_FAMILY', 'COUNTY_CODE_OF_FAMILY', null, null, null, 'WHERE TRIM(COUNTY_CODE_OF_FAMILY) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100008', '家庭所属街道编码STREET_CODE_OF_FAMILY非空率', '1', '201067', 'STREET_CODE_OF_FAMILY', 'STREET_CODE_OF_FAMILY', null, null, null, 'WHERE TRIM(STREET_CODE_OF_FAMILY) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100009', '家庭所属居委编码RESIDENTIAL_COMMITTEE_CODE非空率', '1', '201067', 'RESIDENTIAL_COMMITTEE_CODE', 'RESIDENTIAL_COMMITTEE_CODE', null, null, null, 'WHERE TRIM(RESIDENTIAL_COMMITTEE_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100010', '家庭所属社区编码COMMUNITY_CODE非空率', '1', '201067', 'COMMUNITY_CODE', 'COMMUNITY_CODE', null, null, null, 'WHERE TRIM(COMMUNITY_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100011', '家庭详细地址DETAIL_FAMILY_ADDRESS非空率', '1', '201067', 'DETAIL_FAMILY_ADDRESS', 'DETAIL_FAMILY_ADDRESS', null, null, null, 'WHERE TRIM(DETAIL_FAMILY_ADDRESS) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100012', '邮政编码POSTCODE非空率', '1', '201067', 'POSTCODE', 'POSTCODE', null, null, null, 'WHERE TRIM(POSTCODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100013', '责任医生姓名RESPONSIBLE_DOCTOR_NAME非空率', '1', '201067', 'RESPONSIBLE_DOCTOR_NAME', 'RESPONSIBLE_DOCTOR_NAME', null, null, null, 'WHERE TRIM(RESPONSIBLE_DOCTOR_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100014', '责任医生工号RESPONSIBLE_DOCTOR_ID非空率', '1', '201067', 'RESPONSIBLE_DOCTOR_ID', 'RESPONSIBLE_DOCTOR_ID', null, null, null, 'WHERE TRIM(RESPONSIBLE_DOCTOR_ID) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100015', '是否签约SIGNING非空率', '1', '201067', 'SIGNING', 'SIGNING', null, null, null, 'WHERE TRIM(SIGNING) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100016', '家庭档案状态FAMILY_FILE_STATUS非空率', '1', '201067', 'FAMILY_FILE_STATUS', 'FAMILY_FILE_STATUS', null, null, null, 'WHERE TRIM(FAMILY_FILE_STATUS) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100017', '调查人工号SURVEY_STAFF_NO非空率', '1', '201067', 'SURVEY_STAFF_NO', 'SURVEY_STAFF_NO', null, null, null, 'WHERE TRIM(SURVEY_STAFF_NO) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100018', '调查人姓名SURVEY_NAME非空率', '1', '201067', 'SURVEY_NAME', 'SURVEY_NAME', null, null, null, 'WHERE TRIM(SURVEY_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100019', '调查日期SURVEY_DATE非空率', '1', '201067', 'SURVEY_DATE', 'SURVEY_DATE', null, null, null, 'WHERE TRIM(SURVEY_DATE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100020', '家庭所属区县编码COUNTY_CODE_OF_FAMILY规范率', '2', '201067', 'COUNTY_CODE_OF_FAMILY', 'COUNTY_CODE_OF_FAMILY', 'TB_EHR_DICTIONARY', 'GB/T10114-2003', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GB/T10114-2003'' AND A.VALUE=T.COUNTY_CODE_OF_FAMILY) AND T.COUNTY_CODE_OF_FAMILY IS NOT NULL', '3', '不在字典COUNTY_CODE_OF_FAMILY范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100021', '家庭所属街道编码STREET_CODE_OF_FAMILY规范率', '2', '201067', 'STREET_CODE_OF_FAMILY', 'STREET_CODE_OF_FAMILY', 'TB_EHR_DICTIONARY', 'GB/T10114-2003', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GB/T10114-2003'' AND A.VALUE=T.STREET_CODE_OF_FAMILY) AND T.STREET_CODE_OF_FAMILY IS NOT NULL', '3', '不在字典STREET_CODE_OF_FAMILY范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100022', '家庭所属居委编码RESIDENTIAL_COMMITTEE_CODE规范率', '2', '201067', 'RESIDENTIAL_COMMITTEE_CODE', 'RESIDENTIAL_COMMITTEE_CODE', 'TB_EHR_DICTIONARY', 'GB/T10114-2003', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GB/T10114-2003'' AND A.VALUE=T.RESIDENTIAL_COMMITTEE_CODE) AND T.RESIDENTIAL_COMMITTEE_CODE IS NOT NULL', '3', '不在字典RESIDENTIAL_COMMITTEE_CODE范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201067100023', '家庭所属社区编码COMMUNITY_CODE规范率', '2', '201067', 'COMMUNITY_CODE', 'COMMUNITY_CODE', 'TB_EHR_DICTIONARY', 'GB/T10114-2003', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GB/T10114-2003'' AND A.VALUE=T.COMMUNITY_CODE) AND T.COMMUNITY_CODE IS NOT NULL', '3', '不在字典COMMUNITY_CODE范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+
+
+
+家庭所属区县编码
+家庭所属街道编码
+家庭所属居委编码
+家庭所属社区编码
+
+
+COUNTY_CODE_OF_FAMILY
+STREET_CODE_OF_FAMILY
+RESIDENTIAL_COMMITTEE_CODE
+COMMUNITY_CODE
+
+
+GB/T10114-2003

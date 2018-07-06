@@ -1,0 +1,265 @@
+
+
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss')
+
+
+
+
+
+
+4001
+4002
+4003
+4004
+4005
+4006
+4007
+4008
+4009
+4010
+4011
+4012
+4013
+4014
+4015
+4016
+4017
+4018
+4019
+4020
+4021
+4022
+4023
+4024
+4025
+4026
+4027
+4028
+4029
+4030
+4031
+4032
+4033
+4034
+4035
+4036
+4037
+4038
+4039
+4040
+4041
+4042
+4043
+4044
+4045
+4046
+4047
+4048
+4049
+4050
+4051
+4052
+4053
+4054
+4055
+4056
+4057
+4058
+4059
+4060
+4061
+4062
+
+      患者信息表（tb_patient_information）稳定性
+      挂号表（tb_cis_op_registration）稳定性
+      门急诊就诊记录表（tb_cis_op_visiting_record）稳定性
+      门诊处方表（tb_cis_op_prescription）稳定性
+      处方明细表（tb_cis_op_doctor_advice）稳定性
+      收费表（tb_his_fee_record）稳定性
+      收费明细表（tb_his_fee_detail） 稳定性
+      入院登记表（tb_cis_admission_register） 稳定性
+      出院登记表（tb_cis_discharge_register） 稳定性
+      住院就诊信息表（tb_cis_ih_visiting_record） 稳定性
+      住院医嘱明细表（tb_cis_ih_doctor_advice） 稳定性
+      住院医嘱执行明细表（tb_cis_ih_exe_doctor_advice） 稳定性
+      手术记录表（tb_cis_operation_detail） 稳定性
+      出院小结（tb_cis_lh_summary） 稳定性
+      在/出院结算表（tb_cis_lh_fee_record） 稳定性
+      结算明细表（tb_cis_lh_fee_detail） 稳定性
+      业务量、收入统计表（tb_stat_bus_income_report）稳定性
+      门诊排班 （tb_stat_outpatient_shift） 稳定性
+      实验室检验报告表头（tb_lis_report） 稳定性
+      检验结果指标表（tb_lis_indicator）稳定性
+      细菌结果（tb_lis_bacteria_result） 稳定性
+      药敏结果（tb_lis_allergy_result） 稳定性
+      病人最新信息（tpatient）稳定性
+      病人住院信息（tpatientvisit）稳定性
+      转科信息（tswitchks）稳定性
+      诊断信息（tdiagnose）稳定性
+      病人诊断码附加编码（tdiagnoseadd）稳定性
+      手术信息（toperation）稳定性
+      妇婴卡（tbabycard）稳定性
+      肿瘤化疗记录（tknubhl）稳定性
+      肿瘤卡信息（tknubcard）稳定性
+      中医院病人附加信息（tchadd）稳定性
+      体检总检（tb_pe_main_record） 稳定性
+      体检项目小结（tb_physical_function_report） 稳定性
+      体检明细指标（tb_physical_function_detail） 稳定性
+      电子申请单（tb_electronic_app_form） 稳定性
+      医学影像检查报告表（tb_ris_report） 稳定性
+      儿童免疫基本信息（Basic_Children_Immune_Info） 稳定性
+      不良反应记录（Aefi_Record） 稳定性
+      禁忌信息（Contraindication_Information） 稳定性
+      传染病（Infectious_Disease） 稳定性
+      接种信息（Inoculation_Information） 稳定性
+      从业人员基本信息（Work_Staff_Basic_Information） 稳定性
+      健康检查结果（Physical_Examination_Result） 稳定性
+      健康证(Health_Certificate) 稳定性
+      传染病报告(Infectious_Disease_Report) 稳定性
+      死亡医学证明(Death_Medical_Certification) 稳定性
+      肿瘤病例基本信息(Cancer_Basic_Information) 稳定性
+      儿童接种信息(Children_Inoculation_Info) 稳定性
+      儿童迁入迁出信息(Children_Migration_Info) 稳定性
+      执业医师信息(Practitioners_Information) 稳定性
+      执业护士信息（Nurse_Practitioners_Info）稳定性
+      外国医师来华短期行医许可审批信息(Foreign_Physician_License) 稳定性
+      医疗机构信息(Medical_Insitution_Info) 稳定性
+      卫生许可证信息(Health_License_Information) 稳定性
+      急救车辆信息（Emergency_Vehicle_Info）稳定性
+      呼救信息（Help_Information）稳定性
+      出车信息（Car_Dispatching_Information）稳定性
+      献血个人信息(Blood_Donor_Information) 稳定性
+      采血信息(Blood_Collection_Information) 稳定性
+      发血信息(Blood_Distribution_Info) 稳定性
+      血袋信息(Blood_Detail_Infomation) 稳定性
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

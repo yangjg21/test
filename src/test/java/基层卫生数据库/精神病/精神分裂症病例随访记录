@@ -1,0 +1,433 @@
+1.1.1.1	精神分裂症病例随访记录(SCHIZOPHRENIA_FOLLOW_UP)
+
+
+数据项
+随访编号FOLLOW_UP_NUMBER非空率
+随访机构代码FOLLOW_UP_INSTITUTION_CODE非空率
+随访机构名称FOLLOW_UP_INSTITUTION_NAME非空率
+精神分裂症患者档案标识号SCHIZOPHRENIA_FILE_NUMBER非空率
+个人基本信息标识号BASIC_PERSONAL_INFO_NO非空率
+身份证号码ID_NUMBER非空率
+最近诊断情况LATELY_DIAGNOSTIC_CONDITION非空率
+最近确诊医院名称LATELY_CONFIRMATIVE_HOSPITAL非空率
+最近确诊时间LATELY_CONFIRMATIVE_DATE非空率
+最近治疗效果LATELY_TREATMENT_EFFECT非空率
+目前精神症状代码CURRENT_SYMPTOM_CODE非空率
+目前精神症状说明CURRENT_SYMPTOM_DESC非空率
+自知力评价结果代码INSIGHT_ASSESSMENT_RESULT_CODE非空率
+睡眠情况类别代码SLEEP_TYPE_CODE非空率
+饮食情况类别代码DIET_STATE_TYPE_CODE非空率
+个人生活料理情况类别代码PERSONAL_CARE_TYPE_CODE非空率
+家务劳动情况类别代码HOUSEWORK_TYPE_CODE非空率
+生产劳动及工作情况类别代码PRODUCTIVE_LABOR_TYPE_CODE非空率
+学习能力类别代码LEARNING_ABILITY_CODE非空率
+社会人际交往情况类别代码COMMUNICATION_TYPE_CODE非空率
+两次随访间轻度滋事次数MILD_TROUBLE_NUMBER非空率
+两次随访间肇事次数TROUBLE_NUMBER非空率
+两次随访间肇祸次数ACCIDENT_NUMBER非空率
+两次随访间自伤次数SELF_INJURY_NUMBER非空率
+两次随访间自伤未遂次数ATTEMPTED_SELF_INJURY_NUMBER非空率
+躯体疾病名称PHYSICAL_DISEASE_NAME非空率
+精神分裂症患者服药依从性SCHIZOPHRENIA_DRUG_COMPLICANCE非空率
+评估分类ASSESSMENT_CATEGORY非空率
+精神康复措施代码REHABILITATION_MEASURE_TYPE非空率
+康复措施指导REHABILITATION_MEASURE_GUIDE非空率
+治疗形式建议代码SUGGESTED_TREATMENT_FORM_TYPE非空率
+其他指导意见OTHER_GUIDANCE非空率
+此次随访评价代码FOLLOW_UP_EVALUATION_CODE非空率
+转诊标志REFERRAL_SIGN非空率
+随访方式代码FOLLOW_UP_METHOD_CODE非空率
+随访方式名称FOLLOW_UP_METHOD_NAME非空率
+随访日期FOLLOW_UP_DATE非空率
+下次随访日期NEXT_FOLLOW_UP_DATE非空率
+随访医生工号FOLLOW_UP_DOCTOR_ID非空率
+随访医生姓名FOLLOW_UP_DOCTOR_NAME非空率
+是否失访代码IS_LOST_FOLLOW_CODE非空率
+是否失访代码名称IS_LOST_FOLLOW_NAME非空率
+是否死亡代码IS_DEAD_CODE非空率
+是否死亡代码名称IS_DEAD_NAME非空率
+精神病危险性等级代码SCHIZOPH_RISK_LEVEL_CODE非空率
+精神病危险性等级名称SCHIZOPH_RISK_LEVEL_NAME非空率
+自知力代码名称INSIGHT_ASSESSMENT_RESULT_NAME非空率
+睡眠情况代码名称SLEEP_TYPE_NAME非空率
+饮食情况代码名称DIET_STATE_TYPE_NAME非空率
+社会功能情况-个人生活料理PERSONAL_CARE_TYPE_NAME非空率
+社会功能情况-家庭劳动HOUSEWORK_TYPE_NAME非空率
+社会功能情况-生产劳动及工作PRODUCTIVE_LABOR_TYPE_NAME非空率
+社会功能情况-学习能力LEARNING_ABILITY_NAME非空率
+社会功能情况-人际交往能力COMMUNICATION_TYPE_NAME非空率
+是否有危险行为代码HAS_RISK_ACT_CODE非空率
+是否有危险行为HAS_RISK_ACT_NAME非空率
+随访期间关锁情况代码PERIOD_LOCK_STATUS_CODE非空率
+随访期间关锁情况名称PERIOD_LOCK_STATUS_NAME非空率
+随访期间住院情况代码PERIOD_INHOSPITAL_STATUS_CODE非空率
+随访期间住院情况名称PERIOD_INHOSPITAL_STATUS_NAME非空率
+药物不良反应代码DRUG_REACTION_CODE非空率
+药物不良反应名称DRUG_REACTION_NAME非空率
+服药依从性代码DRUG_COMPLICANCE非空率
+服药依从性代码名称DRUG_COMPLICANCE_NAME非空率
+康复措施名称REHABILITATION_MEASURE_NAME非空率
+本次随访分类名称ASSESSMENT_CATEGORY_NAME非空率
+社会功能情况分类代码SOCIETY_FUNCTION_TYPE_CODE非空率
+社会功能情况分类名称SOCIETY_FUNCTION_TYPE_NAME非空率
+社会功能情况评价代码SOCIETY_FUNC_ASSESS_CODE非空率
+社会功能情况评价名称SOCIETY_FUNC_ASSESS_NAME非空率
+辅助检查标志ASSIST_EXAMINE_SIGN非空率
+
+
+字段名
+非空率FOLLOW_UP_NUMBER
+非空率FOLLOW_UP_INSTITUTION_CODE
+非空率FOLLOW_UP_INSTITUTION_NAME
+非空率SCHIZOPHRENIA_FILE_NUMBER
+非空率BASIC_PERSONAL_INFO_NO
+非空率ID_NUMBER
+非空率LATELY_DIAGNOSTIC_CONDITION
+非空率LATELY_CONFIRMATIVE_HOSPITAL
+非空率LATELY_CONFIRMATIVE_DATE
+非空率LATELY_TREATMENT_EFFECT
+非空率CURRENT_SYMPTOM_CODE
+非空率CURRENT_SYMPTOM_DESC
+非空率INSIGHT_ASSESSMENT_RESULT_CODE
+非空率SLEEP_TYPE_CODE
+非空率DIET_STATE_TYPE_CODE
+非空率PERSONAL_CARE_TYPE_CODE
+非空率HOUSEWORK_TYPE_CODE
+非空率PRODUCTIVE_LABOR_TYPE_CODE
+非空率LEARNING_ABILITY_CODE
+非空率COMMUNICATION_TYPE_CODE
+非空率MILD_TROUBLE_NUMBER
+非空率TROUBLE_NUMBER
+非空率ACCIDENT_NUMBER
+非空率SELF_INJURY_NUMBER
+非空率ATTEMPTED_SELF_INJURY_NUMBER
+非空率PHYSICAL_DISEASE_NAME
+非空率SCHIZOPHRENIA_DRUG_COMPLICANCE
+非空率ASSESSMENT_CATEGORY
+非空率REHABILITATION_MEASURE_TYPE
+非空率REHABILITATION_MEASURE_GUIDE
+非空率SUGGESTED_TREATMENT_FORM_TYPE
+非空率OTHER_GUIDANCE
+非空率FOLLOW_UP_EVALUATION_CODE
+非空率REFERRAL_SIGN
+非空率FOLLOW_UP_METHOD_CODE
+非空率FOLLOW_UP_METHOD_NAME
+非空率FOLLOW_UP_DATE
+非空率NEXT_FOLLOW_UP_DATE
+非空率FOLLOW_UP_DOCTOR_ID
+非空率FOLLOW_UP_DOCTOR_NAME
+非空率IS_LOST_FOLLOW_CODE
+非空率IS_LOST_FOLLOW_NAME
+非空率IS_DEAD_CODE
+非空率IS_DEAD_NAME
+非空率SCHIZOPH_RISK_LEVEL_CODE
+非空率SCHIZOPH_RISK_LEVEL_NAME
+非空率INSIGHT_ASSESSMENT_RESULT_NAME
+非空率SLEEP_TYPE_NAME
+非空率DIET_STATE_TYPE_NAME
+非空率PERSONAL_CARE_TYPE_NAME
+非空率HOUSEWORK_TYPE_NAME
+非空率PRODUCTIVE_LABOR_TYPE_NAME
+非空率LEARNING_ABILITY_NAME
+非空率COMMUNICATION_TYPE_NAME
+非空率HAS_RISK_ACT_CODE
+非空率HAS_RISK_ACT_NAME
+非空率PERIOD_LOCK_STATUS_CODE
+非空率PERIOD_LOCK_STATUS_NAME
+非空率PERIOD_INHOSPITAL_STATUS_CODE
+非空率PERIOD_INHOSPITAL_STATUS_NAME
+非空率DRUG_REACTION_CODE
+非空率DRUG_REACTION_NAME
+非空率DRUG_COMPLICANCE
+非空率DRUG_COMPLICANCE_NAME
+非空率REHABILITATION_MEASURE_NAME
+非空率ASSESSMENT_CATEGORY_NAME
+非空率SOCIETY_FUNCTION_TYPE_CODE
+非空率SOCIETY_FUNCTION_TYPE_NAME
+非空率SOCIETY_FUNC_ASSESS_CODE
+非空率SOCIETY_FUNC_ASSESS_NAME
+非空率ASSIST_EXAMINE_SIGN
+
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100001', '随访编号FOLLOW_UP_NUMBER非空率', '1', '201029', 'FOLLOW_UP_NUMBER', 'FOLLOW_UP_NUMBER', null, null, null, 'WHERE TRIM(FOLLOW_UP_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100002', '随访机构代码FOLLOW_UP_INSTITUTION_CODE非空率', '1', '201029', 'FOLLOW_UP_INSTITUTION_CODE', 'FOLLOW_UP_INSTITUTION_CODE', null, null, null, 'WHERE TRIM(FOLLOW_UP_INSTITUTION_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100003', '随访机构名称FOLLOW_UP_INSTITUTION_NAME非空率', '1', '201029', 'FOLLOW_UP_INSTITUTION_NAME', 'FOLLOW_UP_INSTITUTION_NAME', null, null, null, 'WHERE TRIM(FOLLOW_UP_INSTITUTION_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100004', '精神分裂症患者档案标识号SCHIZOPHRENIA_FILE_NUMBER非空率', '1', '201029', 'SCHIZOPHRENIA_FILE_NUMBER', 'SCHIZOPHRENIA_FILE_NUMBER', null, null, null, 'WHERE TRIM(SCHIZOPHRENIA_FILE_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100005', '个人基本信息标识号BASIC_PERSONAL_INFO_NO非空率', '1', '201029', 'BASIC_PERSONAL_INFO_NO', 'BASIC_PERSONAL_INFO_NO', null, null, null, 'WHERE TRIM(BASIC_PERSONAL_INFO_NO) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100006', '身份证号码ID_NUMBER非空率', '1', '201029', 'ID_NUMBER', 'ID_NUMBER', null, null, null, 'WHERE TRIM(ID_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100007', '最近诊断情况LATELY_DIAGNOSTIC_CONDITION非空率', '1', '201029', 'LATELY_DIAGNOSTIC_CONDITION', 'LATELY_DIAGNOSTIC_CONDITION', null, null, null, 'WHERE TRIM(LATELY_DIAGNOSTIC_CONDITION) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100008', '最近确诊医院名称LATELY_CONFIRMATIVE_HOSPITAL非空率', '1', '201029', 'LATELY_CONFIRMATIVE_HOSPITAL', 'LATELY_CONFIRMATIVE_HOSPITAL', null, null, null, 'WHERE TRIM(LATELY_CONFIRMATIVE_HOSPITAL) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100009', '最近确诊时间LATELY_CONFIRMATIVE_DATE非空率', '1', '201029', 'LATELY_CONFIRMATIVE_DATE', 'LATELY_CONFIRMATIVE_DATE', null, null, null, 'WHERE TRIM(LATELY_CONFIRMATIVE_DATE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100010', '最近治疗效果LATELY_TREATMENT_EFFECT非空率', '1', '201029', 'LATELY_TREATMENT_EFFECT', 'LATELY_TREATMENT_EFFECT', null, null, null, 'WHERE TRIM(LATELY_TREATMENT_EFFECT) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100011', '目前精神症状代码CURRENT_SYMPTOM_CODE非空率', '1', '201029', 'CURRENT_SYMPTOM_CODE', 'CURRENT_SYMPTOM_CODE', null, null, null, 'WHERE TRIM(CURRENT_SYMPTOM_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100012', '目前精神症状说明CURRENT_SYMPTOM_DESC非空率', '1', '201029', 'CURRENT_SYMPTOM_DESC', 'CURRENT_SYMPTOM_DESC', null, null, null, 'WHERE TRIM(CURRENT_SYMPTOM_DESC) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100013', '自知力评价结果代码INSIGHT_ASSESSMENT_RESULT_CODE非空率', '1', '201029', 'INSIGHT_ASSESSMENT_RESULT_CODE', 'INSIGHT_ASSESSMENT_RESULT_CODE', null, null, null, 'WHERE TRIM(INSIGHT_ASSESSMENT_RESULT_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100014', '睡眠情况类别代码SLEEP_TYPE_CODE非空率', '1', '201029', 'SLEEP_TYPE_CODE', 'SLEEP_TYPE_CODE', null, null, null, 'WHERE TRIM(SLEEP_TYPE_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100015', '饮食情况类别代码DIET_STATE_TYPE_CODE非空率', '1', '201029', 'DIET_STATE_TYPE_CODE', 'DIET_STATE_TYPE_CODE', null, null, null, 'WHERE TRIM(DIET_STATE_TYPE_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100016', '个人生活料理情况类别代码PERSONAL_CARE_TYPE_CODE非空率', '1', '201029', 'PERSONAL_CARE_TYPE_CODE', 'PERSONAL_CARE_TYPE_CODE', null, null, null, 'WHERE TRIM(PERSONAL_CARE_TYPE_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100017', '家务劳动情况类别代码HOUSEWORK_TYPE_CODE非空率', '1', '201029', 'HOUSEWORK_TYPE_CODE', 'HOUSEWORK_TYPE_CODE', null, null, null, 'WHERE TRIM(HOUSEWORK_TYPE_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100018', '生产劳动及工作情况类别代码PRODUCTIVE_LABOR_TYPE_CODE非空率', '1', '201029', 'PRODUCTIVE_LABOR_TYPE_CODE', 'PRODUCTIVE_LABOR_TYPE_CODE', null, null, null, 'WHERE TRIM(PRODUCTIVE_LABOR_TYPE_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100019', '学习能力类别代码LEARNING_ABILITY_CODE非空率', '1', '201029', 'LEARNING_ABILITY_CODE', 'LEARNING_ABILITY_CODE', null, null, null, 'WHERE TRIM(LEARNING_ABILITY_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100020', '社会人际交往情况类别代码COMMUNICATION_TYPE_CODE非空率', '1', '201029', 'COMMUNICATION_TYPE_CODE', 'COMMUNICATION_TYPE_CODE', null, null, null, 'WHERE TRIM(COMMUNICATION_TYPE_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100021', '两次随访间轻度滋事次数MILD_TROUBLE_NUMBER非空率', '1', '201029', 'MILD_TROUBLE_NUMBER', 'MILD_TROUBLE_NUMBER', null, null, null, 'WHERE TRIM(MILD_TROUBLE_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100022', '两次随访间肇事次数TROUBLE_NUMBER非空率', '1', '201029', 'TROUBLE_NUMBER', 'TROUBLE_NUMBER', null, null, null, 'WHERE TRIM(TROUBLE_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100023', '两次随访间肇祸次数ACCIDENT_NUMBER非空率', '1', '201029', 'ACCIDENT_NUMBER', 'ACCIDENT_NUMBER', null, null, null, 'WHERE TRIM(ACCIDENT_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100024', '两次随访间自伤次数SELF_INJURY_NUMBER非空率', '1', '201029', 'SELF_INJURY_NUMBER', 'SELF_INJURY_NUMBER', null, null, null, 'WHERE TRIM(SELF_INJURY_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100025', '两次随访间自伤未遂次数ATTEMPTED_SELF_INJURY_NUMBER非空率', '1', '201029', 'ATTEMPTED_SELF_INJURY_NUMBER', 'ATTEMPTED_SELF_INJURY_NUMBER', null, null, null, 'WHERE TRIM(ATTEMPTED_SELF_INJURY_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100026', '躯体疾病名称PHYSICAL_DISEASE_NAME非空率', '1', '201029', 'PHYSICAL_DISEASE_NAME', 'PHYSICAL_DISEASE_NAME', null, null, null, 'WHERE TRIM(PHYSICAL_DISEASE_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100027', '精神分裂症患者服药依从性SCHIZOPHRENIA_DRUG_COMPLICANCE非空率', '1', '201029', 'SCHIZOPHRENIA_DRUG_COMPLICANCE', 'SCHIZOPHRENIA_DRUG_COMPLICANCE', null, null, null, 'WHERE TRIM(SCHIZOPHRENIA_DRUG_COMPLICANCE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100028', '评估分类ASSESSMENT_CATEGORY非空率', '1', '201029', 'ASSESSMENT_CATEGORY', 'ASSESSMENT_CATEGORY', null, null, null, 'WHERE TRIM(ASSESSMENT_CATEGORY) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100029', '精神康复措施代码REHABILITATION_MEASURE_TYPE非空率', '1', '201029', 'REHABILITATION_MEASURE_TYPE', 'REHABILITATION_MEASURE_TYPE', null, null, null, 'WHERE TRIM(REHABILITATION_MEASURE_TYPE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100030', '康复措施指导REHABILITATION_MEASURE_GUIDE非空率', '1', '201029', 'REHABILITATION_MEASURE_GUIDE', 'REHABILITATION_MEASURE_GUIDE', null, null, null, 'WHERE TRIM(REHABILITATION_MEASURE_GUIDE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100031', '治疗形式建议代码SUGGESTED_TREATMENT_FORM_TYPE非空率', '1', '201029', 'SUGGESTED_TREATMENT_FORM_TYPE', 'SUGGESTED_TREATMENT_FORM_TYPE', null, null, null, 'WHERE TRIM(SUGGESTED_TREATMENT_FORM_TYPE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100032', '其他指导意见OTHER_GUIDANCE非空率', '1', '201029', 'OTHER_GUIDANCE', 'OTHER_GUIDANCE', null, null, null, 'WHERE TRIM(OTHER_GUIDANCE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100033', '此次随访评价代码FOLLOW_UP_EVALUATION_CODE非空率', '1', '201029', 'FOLLOW_UP_EVALUATION_CODE', 'FOLLOW_UP_EVALUATION_CODE', null, null, null, 'WHERE TRIM(FOLLOW_UP_EVALUATION_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100034', '转诊标志REFERRAL_SIGN非空率', '1', '201029', 'REFERRAL_SIGN', 'REFERRAL_SIGN', null, null, null, 'WHERE TRIM(REFERRAL_SIGN) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100035', '随访方式代码FOLLOW_UP_METHOD_CODE非空率', '1', '201029', 'FOLLOW_UP_METHOD_CODE', 'FOLLOW_UP_METHOD_CODE', null, null, null, 'WHERE TRIM(FOLLOW_UP_METHOD_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100036', '随访方式名称FOLLOW_UP_METHOD_NAME非空率', '1', '201029', 'FOLLOW_UP_METHOD_NAME', 'FOLLOW_UP_METHOD_NAME', null, null, null, 'WHERE TRIM(FOLLOW_UP_METHOD_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100037', '随访日期FOLLOW_UP_DATE非空率', '1', '201029', 'FOLLOW_UP_DATE', 'FOLLOW_UP_DATE', null, null, null, 'WHERE TRIM(FOLLOW_UP_DATE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100038', '下次随访日期NEXT_FOLLOW_UP_DATE非空率', '1', '201029', 'NEXT_FOLLOW_UP_DATE', 'NEXT_FOLLOW_UP_DATE', null, null, null, 'WHERE TRIM(NEXT_FOLLOW_UP_DATE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100039', '随访医生工号FOLLOW_UP_DOCTOR_ID非空率', '1', '201029', 'FOLLOW_UP_DOCTOR_ID', 'FOLLOW_UP_DOCTOR_ID', null, null, null, 'WHERE TRIM(FOLLOW_UP_DOCTOR_ID) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100040', '随访医生姓名FOLLOW_UP_DOCTOR_NAME非空率', '1', '201029', 'FOLLOW_UP_DOCTOR_NAME', 'FOLLOW_UP_DOCTOR_NAME', null, null, null, 'WHERE TRIM(FOLLOW_UP_DOCTOR_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100041', '是否失访代码IS_LOST_FOLLOW_CODE非空率', '1', '201029', 'IS_LOST_FOLLOW_CODE', 'IS_LOST_FOLLOW_CODE', null, null, null, 'WHERE TRIM(IS_LOST_FOLLOW_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100042', '是否失访代码名称IS_LOST_FOLLOW_NAME非空率', '1', '201029', 'IS_LOST_FOLLOW_NAME', 'IS_LOST_FOLLOW_NAME', null, null, null, 'WHERE TRIM(IS_LOST_FOLLOW_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100043', '是否死亡代码IS_DEAD_CODE非空率', '1', '201029', 'IS_DEAD_CODE', 'IS_DEAD_CODE', null, null, null, 'WHERE TRIM(IS_DEAD_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100044', '是否死亡代码名称IS_DEAD_NAME非空率', '1', '201029', 'IS_DEAD_NAME', 'IS_DEAD_NAME', null, null, null, 'WHERE TRIM(IS_DEAD_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100045', '精神病危险性等级代码SCHIZOPH_RISK_LEVEL_CODE非空率', '1', '201029', 'SCHIZOPH_RISK_LEVEL_CODE', 'SCHIZOPH_RISK_LEVEL_CODE', null, null, null, 'WHERE TRIM(SCHIZOPH_RISK_LEVEL_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100046', '精神病危险性等级名称SCHIZOPH_RISK_LEVEL_NAME非空率', '1', '201029', 'SCHIZOPH_RISK_LEVEL_NAME', 'SCHIZOPH_RISK_LEVEL_NAME', null, null, null, 'WHERE TRIM(SCHIZOPH_RISK_LEVEL_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100047', '自知力代码名称INSIGHT_ASSESSMENT_RESULT_NAME非空率', '1', '201029', 'INSIGHT_ASSESSMENT_RESULT_NAME', 'INSIGHT_ASSESSMENT_RESULT_NAME', null, null, null, 'WHERE TRIM(INSIGHT_ASSESSMENT_RESULT_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100048', '睡眠情况代码名称SLEEP_TYPE_NAME非空率', '1', '201029', 'SLEEP_TYPE_NAME', 'SLEEP_TYPE_NAME', null, null, null, 'WHERE TRIM(SLEEP_TYPE_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100049', '饮食情况代码名称DIET_STATE_TYPE_NAME非空率', '1', '201029', 'DIET_STATE_TYPE_NAME', 'DIET_STATE_TYPE_NAME', null, null, null, 'WHERE TRIM(DIET_STATE_TYPE_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100050', '社会功能情况-个人生活料理PERSONAL_CARE_TYPE_NAME非空率', '1', '201029', 'PERSONAL_CARE_TYPE_NAME', 'PERSONAL_CARE_TYPE_NAME', null, null, null, 'WHERE TRIM(PERSONAL_CARE_TYPE_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100051', '社会功能情况-家庭劳动HOUSEWORK_TYPE_NAME非空率', '1', '201029', 'HOUSEWORK_TYPE_NAME', 'HOUSEWORK_TYPE_NAME', null, null, null, 'WHERE TRIM(HOUSEWORK_TYPE_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100052', '社会功能情况-生产劳动及工作PRODUCTIVE_LABOR_TYPE_NAME非空率', '1', '201029', 'PRODUCTIVE_LABOR_TYPE_NAME', 'PRODUCTIVE_LABOR_TYPE_NAME', null, null, null, 'WHERE TRIM(PRODUCTIVE_LABOR_TYPE_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100053', '社会功能情况-学习能力LEARNING_ABILITY_NAME非空率', '1', '201029', 'LEARNING_ABILITY_NAME', 'LEARNING_ABILITY_NAME', null, null, null, 'WHERE TRIM(LEARNING_ABILITY_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100054', '社会功能情况-人际交往能力COMMUNICATION_TYPE_NAME非空率', '1', '201029', 'COMMUNICATION_TYPE_NAME', 'COMMUNICATION_TYPE_NAME', null, null, null, 'WHERE TRIM(COMMUNICATION_TYPE_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100055', '是否有危险行为代码HAS_RISK_ACT_CODE非空率', '1', '201029', 'HAS_RISK_ACT_CODE', 'HAS_RISK_ACT_CODE', null, null, null, 'WHERE TRIM(HAS_RISK_ACT_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100056', '是否有危险行为HAS_RISK_ACT_NAME非空率', '1', '201029', 'HAS_RISK_ACT_NAME', 'HAS_RISK_ACT_NAME', null, null, null, 'WHERE TRIM(HAS_RISK_ACT_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100057', '随访期间关锁情况代码PERIOD_LOCK_STATUS_CODE非空率', '1', '201029', 'PERIOD_LOCK_STATUS_CODE', 'PERIOD_LOCK_STATUS_CODE', null, null, null, 'WHERE TRIM(PERIOD_LOCK_STATUS_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100058', '随访期间关锁情况名称PERIOD_LOCK_STATUS_NAME非空率', '1', '201029', 'PERIOD_LOCK_STATUS_NAME', 'PERIOD_LOCK_STATUS_NAME', null, null, null, 'WHERE TRIM(PERIOD_LOCK_STATUS_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100059', '随访期间住院情况代码PERIOD_INHOSPITAL_STATUS_CODE非空率', '1', '201029', 'PERIOD_INHOSPITAL_STATUS_CODE', 'PERIOD_INHOSPITAL_STATUS_CODE', null, null, null, 'WHERE TRIM(PERIOD_INHOSPITAL_STATUS_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100060', '随访期间住院情况名称PERIOD_INHOSPITAL_STATUS_NAME非空率', '1', '201029', 'PERIOD_INHOSPITAL_STATUS_NAME', 'PERIOD_INHOSPITAL_STATUS_NAME', null, null, null, 'WHERE TRIM(PERIOD_INHOSPITAL_STATUS_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100061', '药物不良反应代码DRUG_REACTION_CODE非空率', '1', '201029', 'DRUG_REACTION_CODE', 'DRUG_REACTION_CODE', null, null, null, 'WHERE TRIM(DRUG_REACTION_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100062', '药物不良反应名称DRUG_REACTION_NAME非空率', '1', '201029', 'DRUG_REACTION_NAME', 'DRUG_REACTION_NAME', null, null, null, 'WHERE TRIM(DRUG_REACTION_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100063', '服药依从性代码DRUG_COMPLICANCE非空率', '1', '201029', 'DRUG_COMPLICANCE', 'DRUG_COMPLICANCE', null, null, null, 'WHERE TRIM(DRUG_COMPLICANCE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100064', '服药依从性代码名称DRUG_COMPLICANCE_NAME非空率', '1', '201029', 'DRUG_COMPLICANCE_NAME', 'DRUG_COMPLICANCE_NAME', null, null, null, 'WHERE TRIM(DRUG_COMPLICANCE_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100065', '康复措施名称REHABILITATION_MEASURE_NAME非空率', '1', '201029', 'REHABILITATION_MEASURE_NAME', 'REHABILITATION_MEASURE_NAME', null, null, null, 'WHERE TRIM(REHABILITATION_MEASURE_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100066', '本次随访分类名称ASSESSMENT_CATEGORY_NAME非空率', '1', '201029', 'ASSESSMENT_CATEGORY_NAME', 'ASSESSMENT_CATEGORY_NAME', null, null, null, 'WHERE TRIM(ASSESSMENT_CATEGORY_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100067', '社会功能情况分类代码SOCIETY_FUNCTION_TYPE_CODE非空率', '1', '201029', 'SOCIETY_FUNCTION_TYPE_CODE', 'SOCIETY_FUNCTION_TYPE_CODE', null, null, null, 'WHERE TRIM(SOCIETY_FUNCTION_TYPE_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100068', '社会功能情况分类名称SOCIETY_FUNCTION_TYPE_NAME非空率', '1', '201029', 'SOCIETY_FUNCTION_TYPE_NAME', 'SOCIETY_FUNCTION_TYPE_NAME', null, null, null, 'WHERE TRIM(SOCIETY_FUNCTION_TYPE_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100069', '社会功能情况评价代码SOCIETY_FUNC_ASSESS_CODE非空率', '1', '201029', 'SOCIETY_FUNC_ASSESS_CODE', 'SOCIETY_FUNC_ASSESS_CODE', null, null, null, 'WHERE TRIM(SOCIETY_FUNC_ASSESS_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100070', '社会功能情况评价名称SOCIETY_FUNC_ASSESS_NAME非空率', '1', '201029', 'SOCIETY_FUNC_ASSESS_NAME', 'SOCIETY_FUNC_ASSESS_NAME', null, null, null, 'WHERE TRIM(SOCIETY_FUNC_ASSESS_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100071', '辅助检查标志ASSIST_EXAMINE_SIGN非空率', '1', '201029', 'ASSIST_EXAMINE_SIGN', 'ASSIST_EXAMINE_SIGN', null, null, null, 'WHERE TRIM(ASSIST_EXAMINE_SIGN) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100072', '最近治疗效果LATELY_TREATMENT_EFFECT规范率', '2', '201029', 'LATELY_TREATMENT_EFFECT', 'LATELY_TREATMENT_EFFECT', 'TB_EHR_DICTIONARY', 'CV05.10.010', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV05.10.010'' AND A.VALUE=T.LATELY_TREATMENT_EFFECT) AND T.LATELY_TREATMENT_EFFECT IS NOT NULL', '3', '不在字典CV05.10.010范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100073', '自知力评价结果代码INSIGHT_ASSESSMENT_RESULT_CODE规范率', '2', '201029', 'INSIGHT_ASSESSMENT_RESULT_CODE', 'INSIGHT_ASSESSMENT_RESULT_CODE', 'TB_EHR_DICTIONARY', 'GZCV5501.08', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5501.08'' AND A.VALUE=T.INSIGHT_ASSESSMENT_RESULT_CODE) AND T.INSIGHT_ASSESSMENT_RESULT_CODE IS NOT NULL', '3', '不在字典GZCV5501.08范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100074', '睡眠情况类别代码SLEEP_TYPE_CODE规范率', '2', '201029', 'SLEEP_TYPE_CODE', 'SLEEP_TYPE_CODE', 'TB_EHR_DICTIONARY', 'GZCV5501.01', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5501.01'' AND A.VALUE=T.SLEEP_TYPE_CODE) AND T.SLEEP_TYPE_CODE IS NOT NULL', '3', '不在字典GZCV5501.01范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100075', '饮食情况类别代码DIET_STATE_TYPE_CODE规范率', '2', '201029', 'DIET_STATE_TYPE_CODE', 'DIET_STATE_TYPE_CODE', 'TB_EHR_DICTIONARY', 'GZCV5501.01', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5501.01'' AND A.VALUE=T.DIET_STATE_TYPE_CODE) AND T.DIET_STATE_TYPE_CODE IS NOT NULL', '3', '不在字典GZCV5501.01范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100076', '个人生活料理情况类别代码PERSONAL_CARE_TYPE_CODE规范率', '2', '201029', 'PERSONAL_CARE_TYPE_CODE', 'PERSONAL_CARE_TYPE_CODE', 'TB_EHR_DICTIONARY', 'GZCV5501.01', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5501.01'' AND A.VALUE=T.PERSONAL_CARE_TYPE_CODE) AND T.PERSONAL_CARE_TYPE_CODE IS NOT NULL', '3', '不在字典GZCV5501.01范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100077', '家务劳动情况类别代码HOUSEWORK_TYPE_CODE规范率', '2', '201029', 'HOUSEWORK_TYPE_CODE', 'HOUSEWORK_TYPE_CODE', 'TB_EHR_DICTIONARY', 'GZCV5501.01', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5501.01'' AND A.VALUE=T.HOUSEWORK_TYPE_CODE) AND T.HOUSEWORK_TYPE_CODE IS NOT NULL', '3', '不在字典GZCV5501.01范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100078', '生产劳动及工作情况类别代码PRODUCTIVE_LABOR_TYPE_CODE规范率', '2', '201029', 'PRODUCTIVE_LABOR_TYPE_CODE', 'PRODUCTIVE_LABOR_TYPE_CODE', 'TB_EHR_DICTIONARY', 'GZCV5501.01', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5501.01'' AND A.VALUE=T.PRODUCTIVE_LABOR_TYPE_CODE) AND T.PRODUCTIVE_LABOR_TYPE_CODE IS NOT NULL', '3', '不在字典GZCV5501.01范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100079', '学习能力类别代码LEARNING_ABILITY_CODE规范率', '2', '201029', 'LEARNING_ABILITY_CODE', 'LEARNING_ABILITY_CODE', 'TB_EHR_DICTIONARY', 'GZCV5501.01', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5501.01'' AND A.VALUE=T.LEARNING_ABILITY_CODE) AND T.LEARNING_ABILITY_CODE IS NOT NULL', '3', '不在字典GZCV5501.01范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100080', '社会人际交往情况类别代码COMMUNICATION_TYPE_CODE规范率', '2', '201029', 'COMMUNICATION_TYPE_CODE', 'COMMUNICATION_TYPE_CODE', 'TB_EHR_DICTIONARY', 'GZCV5501.01', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5501.01'' AND A.VALUE=T.COMMUNICATION_TYPE_CODE) AND T.COMMUNICATION_TYPE_CODE IS NOT NULL', '3', '不在字典GZCV5501.01范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100081', '精神分裂症患者服药依从性SCHIZOPHRENIA_DRUG_COMPLICANCE规范率', '2', '201029', 'SCHIZOPHRENIA_DRUG_COMPLICANCE', 'SCHIZOPHRENIA_DRUG_COMPLICANCE', 'TB_EHR_DICTIONARY', 'CV5101.31', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV5101.31'' AND A.VALUE=T.SCHIZOPHRENIA_DRUG_COMPLICANCE) AND T.SCHIZOPHRENIA_DRUG_COMPLICANCE IS NOT NULL', '3', '不在字典CV5101.31范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100082', '精神康复措施代码REHABILITATION_MEASURE_TYPE规范率', '2', '201029', 'REHABILITATION_MEASURE_TYPE', 'REHABILITATION_MEASURE_TYPE', 'TB_EHR_DICTIONARY', 'CV5101.34', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV5101.34'' AND A.VALUE=T.REHABILITATION_MEASURE_TYPE) AND T.REHABILITATION_MEASURE_TYPE IS NOT NULL', '3', '不在字典CV5101.34范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100083', '治疗形式建议代码SUGGESTED_TREATMENT_FORM_TYPE规范率', '2', '201029', 'SUGGESTED_TREATMENT_FORM_TYPE', 'SUGGESTED_TREATMENT_FORM_TYPE', 'TB_EHR_DICTIONARY', 'GZCV5402.02', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5402.02'' AND A.VALUE=T.SUGGESTED_TREATMENT_FORM_TYPE) AND T.SUGGESTED_TREATMENT_FORM_TYPE IS NOT NULL', '3', '不在字典GZCV5402.02范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100084', '此次随访评价代码FOLLOW_UP_EVALUATION_CODE规范率', '2', '201029', 'FOLLOW_UP_EVALUATION_CODE', 'FOLLOW_UP_EVALUATION_CODE', 'TB_EHR_DICTIONARY', 'CV5501.07', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV5501.07'' AND A.VALUE=T.FOLLOW_UP_EVALUATION_CODE) AND T.FOLLOW_UP_EVALUATION_CODE IS NOT NULL', '3', '不在字典CV5501.07范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100085', '随访方式代码FOLLOW_UP_METHOD_CODE规范率', '2', '201029', 'FOLLOW_UP_METHOD_CODE', 'FOLLOW_UP_METHOD_CODE', 'TB_EHR_DICTIONARY', 'CV06.00.207', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV06.00.207'' AND A.VALUE=T.FOLLOW_UP_METHOD_CODE) AND T.FOLLOW_UP_METHOD_CODE IS NOT NULL', '3', '不在字典CV06.00.207范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100086', '随访方式名称FOLLOW_UP_METHOD_NAME规范率', '2', '201029', 'FOLLOW_UP_METHOD_NAME', 'FOLLOW_UP_METHOD_NAME', 'TB_EHR_DICTIONARY', 'CV06.00.207', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV06.00.207'' AND A.DESCRIPTION=T.FOLLOW_UP_METHOD_NAME) AND T.FOLLOW_UP_METHOD_NAME IS NOT NULL', '3', '不在字典CV06.00.207范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100087', '精神病危险性等级代码SCHIZOPH_RISK_LEVEL_CODE规范率', '2', '201029', 'SCHIZOPH_RISK_LEVEL_CODE', 'SCHIZOPH_RISK_LEVEL_CODE', 'TB_EHR_DICTIONARY', 'CV05.10.013', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV05.10.013'' AND A.VALUE=T.SCHIZOPH_RISK_LEVEL_CODE) AND T.SCHIZOPH_RISK_LEVEL_CODE IS NOT NULL', '3', '不在字典CV05.10.013范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100088', '精神病危险性等级名称SCHIZOPH_RISK_LEVEL_NAME规范率', '2', '201029', 'SCHIZOPH_RISK_LEVEL_NAME', 'SCHIZOPH_RISK_LEVEL_NAME', 'TB_EHR_DICTIONARY', 'CV05.10.013', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV05.10.013'' AND A.DESCRIPTION=T.SCHIZOPH_RISK_LEVEL_NAME) AND T.SCHIZOPH_RISK_LEVEL_NAME IS NOT NULL', '3', '不在字典CV05.10.013范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100089', '自知力代码名称INSIGHT_ASSESSMENT_RESULT_NAME规范率', '2', '201029', 'INSIGHT_ASSESSMENT_RESULT_NAME', 'INSIGHT_ASSESSMENT_RESULT_NAME', 'TB_EHR_DICTIONARY', 'GZCV5501.08', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5501.08'' AND A.DESCRIPTION=T.INSIGHT_ASSESSMENT_RESULT_NAME) AND T.INSIGHT_ASSESSMENT_RESULT_NAME IS NOT NULL', '3', '不在字典GZCV5501.08范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100090', '睡眠情况代码名称SLEEP_TYPE_NAME规范率', '2', '201029', 'SLEEP_TYPE_NAME', 'SLEEP_TYPE_NAME', 'TB_EHR_DICTIONARY', 'GZCV5501.01', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5501.01'' AND A.DESCRIPTION=T.SLEEP_TYPE_NAME) AND T.SLEEP_TYPE_NAME IS NOT NULL', '3', '不在字典GZCV5501.01范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100091', '饮食情况代码名称DIET_STATE_TYPE_NAME规范率', '2', '201029', 'DIET_STATE_TYPE_NAME', 'DIET_STATE_TYPE_NAME', 'TB_EHR_DICTIONARY', 'GZCV5501.07', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5501.07'' AND A.DESCRIPTION=T.DIET_STATE_TYPE_NAME) AND T.DIET_STATE_TYPE_NAME IS NOT NULL', '3', '不在字典GZCV5501.07范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100092', '服药依从性代码DRUG_COMPLICANCE规范率', '2', '201029', 'DRUG_COMPLICANCE', 'DRUG_COMPLICANCE', 'TB_EHR_DICTIONARY', 'GZCV5101.12', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5101.12'' AND A.VALUE=T.DRUG_COMPLICANCE) AND T.DRUG_COMPLICANCE IS NOT NULL', '3', '不在字典GZCV5101.12范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100093', '服药依从性代码名称DRUG_COMPLICANCE_NAME规范率', '2', '201029', 'DRUG_COMPLICANCE_NAME', 'DRUG_COMPLICANCE_NAME', 'TB_EHR_DICTIONARY', 'GZCV5101.12', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV5101.12'' AND A.DESCRIPTION=T.DRUG_COMPLICANCE_NAME) AND T.DRUG_COMPLICANCE_NAME IS NOT NULL', '3', '不在字典GZCV5101.12范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100094', '目前精神症状代码CURRENT_SYMPTOM_CODE规范率', '2', '201029', 'CURRENT_SYMPTOM_CODE', 'CURRENT_SYMPTOM_CODE', 'TB_EHR_DICTIONARY', 'CV5101.30', null, 'WHERE NOT EXISTS(SMART_INFO.F_CHECK_DIC_DATA(T.CURRENT_SYMPTOM_CODE,''CV5101.30'',0)) AND T.CURRENT_SYMPTOM_CODE IS NOT NULL', '3', '不在字典CV5101.30范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201029100095', '目前精神症状说明CURRENT_SYMPTOM_DESC规范率', '2', '201029', 'CURRENT_SYMPTOM_DESC', 'CURRENT_SYMPTOM_DESC', 'TB_EHR_DICTIONARY', 'CV5101.30', null, 'WHERE NOT EXISTS(SMART_INFO.F_CHECK_DIC_DATA(T.CURRENT_SYMPTOM_DESC,''CV5101.30'',1)) AND T.CURRENT_SYMPTOM_DESC IS NOT NULL', '3', '不在字典CV5101.30范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+
+
+
+最近治疗效果LATELY_TREATMENT_EFFECT
+自知力评价结果代码INSIGHT_ASSESSMENT_RESULT_CODE
+睡眠情况类别代码SLEEP_TYPE_CODE
+饮食情况类别代码DIET_STATE_TYPE_CODE
+个人生活料理情况类别代码PERSONAL_CARE_TYPE_CODE
+家务劳动情况类别代码HOUSEWORK_TYPE_CODE
+生产劳动及工作情况类别代码PRODUCTIVE_LABOR_TYPE_CODE
+学习能力类别代码LEARNING_ABILITY_CODE
+社会人际交往情况类别代码COMMUNICATION_TYPE_CODE
+精神分裂症患者服药依从性SCHIZOPHRENIA_DRUG_COMPLICANCE
+精神康复措施代码REHABILITATION_MEASURE_TYPE
+治疗形式建议代码SUGGESTED_TREATMENT_FORM_TYPE
+此次随访评价代码FOLLOW_UP_EVALUATION_CODE
+随访方式代码FOLLOW_UP_METHOD_CODE
+随访方式名称FOLLOW_UP_METHOD_NAME
+精神病危险性等级代码SCHIZOPH_RISK_LEVEL_CODE
+精神病危险性等级名称SCHIZOPH_RISK_LEVEL_NAME
+自知力代码名称INSIGHT_ASSESSMENT_RESULT_NAME
+睡眠情况代码名称SLEEP_TYPE_NAME
+饮食情况代码名称DIET_STATE_TYPE_NAME
+服药依从性代码DRUG_COMPLICANCE
+服药依从性代码名称DRUG_COMPLICANCE_NAME
+
+
+
+
+
+LATELY_TREATMENT_EFFECT
+INSIGHT_ASSESSMENT_RESULT_CODE
+SLEEP_TYPE_CODE
+DIET_STATE_TYPE_CODE
+PERSONAL_CARE_TYPE_CODE
+HOUSEWORK_TYPE_CODE
+PRODUCTIVE_LABOR_TYPE_CODE
+LEARNING_ABILITY_CODE
+COMMUNICATION_TYPE_CODE
+SCHIZOPHRENIA_DRUG_COMPLICANCE
+REHABILITATION_MEASURE_TYPE
+SUGGESTED_TREATMENT_FORM_TYPE
+FOLLOW_UP_EVALUATION_CODE
+FOLLOW_UP_METHOD_CODE
+FOLLOW_UP_METHOD_NAME
+SCHIZOPH_RISK_LEVEL_CODE
+SCHIZOPH_RISK_LEVEL_NAME
+INSIGHT_ASSESSMENT_RESULT_NAME
+SLEEP_TYPE_NAME
+DIET_STATE_TYPE_NAME
+DRUG_COMPLICANCE
+DRUG_COMPLICANCE_NAME
+
+
+CV05.10.010
+GZCV5501.08
+GZCV5501.01
+GZCV5501.01
+GZCV5501.01
+GZCV5501.01
+GZCV5501.01
+GZCV5501.01
+GZCV5501.01
+CV5101.31
+CV5101.34
+GZCV5402.02
+CV5501.07
+CV06.00.207
+CV06.00.207
+CV05.10.013
+CV05.10.013
+GZCV5501.08
+GZCV5501.01
+GZCV5501.07
+GZCV5101.12
+GZCV5101.12
+
+
+
+( '201029100073', '目前精神症状代码CURRENT_SYMPTOM_CODE规范率', '2', '201029', 'CURRENT_SYMPTOM_CODE', 'CURRENT_SYMPTOM_CODE', 'TB_EHR_DICTIONARY', 'CV5101.30', null, 'WHERE NOT EXISTS(SMART_INFO.F_CHECK_DIC_DATA(T.CURRENT_SYMPTOM_CODE,''CV5101.30'',0)) AND T.CURRENT_SYMPTOM_CODE IS NOT NULL', '3', '不在字典CV5101.30范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '201029100073', '目前精神症状说明CURRENT_SYMPTOM_DESC规范率', '2', '201029', 'CURRENT_SYMPTOM_DESC', 'CURRENT_SYMPTOM_DESC', 'TB_EHR_DICTIONARY', 'CV5101.30', null, 'WHERE NOT EXISTS(SMART_INFO.F_CHECK_DIC_DATA(T.CURRENT_SYMPTOM_DESC,''CV5101.30'',1)) AND T.CURRENT_SYMPTOM_DESC IS NOT NULL', '3', '不在字典CV5101.30范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+
+
+
+目前精神症状代码CURRENT_SYMPTOM_CODE
+目前精神症状说明CURRENT_SYMPTOM_DESC
+
+CURRENT_SYMPTOM_CODE
+CURRENT_SYMPTOM_DESC
+
+
+CV5101.30
+CV5101.30

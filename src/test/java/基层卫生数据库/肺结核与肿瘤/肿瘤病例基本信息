@@ -1,0 +1,169 @@
+1.1.1.1	肿瘤病例基本信息(CANCER_BASIC_INFORMATION)
+
+
+数据项
+肿瘤患者档案标识号CANCER_PATIENTS_FILE_NUMBER非空率
+建档机构代码INSTITUTION_CODE_BUILDING_FILE非空率
+建档机构名称INSTITUTION_NAME_BUILDING_FILE非空率
+个人基本信息标识号BASIC_PERSONAL_INFO_NO非空率
+身份证号码ID_NUMBER非空率
+肿瘤病情告知病人情况类别代码INFORMED_CONDITION_TYPE_CODE非空率
+病人来源PATIENT_SOURCE非空率
+疾病诊断名称NAME_OF_DISEASE_DIAGNOSIS非空率
+肿瘤诊断代码CODE_OF_TUMOR_DIAGNOSIS非空率
+首次就诊日期FIRST_VISITING_DATE非空率
+确诊日期DATE_OF_CONFIRMATION非空率
+肿瘤家族史标志FAMILIY_HISTORY_OF_TUMOR非空率
+肿瘤家族史瘤别FAMILIAL_TUMOR_TYPE非空率
+患家族病成员与本人关系代码RELATION_WITH_FAMILY_DISEASE非空率
+肿瘤TNM分期代码TNM_CODE非空率
+肿瘤临床分期代码TUMOR_CLINICAL_STAGE_CODE非空率
+是否做病理学检查PATHOLOGICAL_EXAMINATION非空率
+分化程度TUMOR_DIFFERENTIATION非空率
+是否治疗TREATMENT非空率
+报告单位REPORT_UNIT非空率
+报告日期REPORT_DATE非空率
+建档日期DATE_OF_BUILDING_FILE非空率
+建档医生工号DOCTOR_ID_OF_BUILDING_FILE非空率
+建档医生姓名DOCTOR_NAME_OF_BUILDING_FILE非空率
+责任医生工号RESPONSIBLE_DOCTOR_ID非空率
+责任医生姓名RESPONSIBLE_DOCTOR_NAME非空率
+管理机构代码ADMINISTRATION_CODE非空率
+管理机构名称ADMINISTRATION_NAME非空率
+档案状态FILE_STATUS非空率
+是否因肿瘤死亡标志CANCER_DEATH非空率
+是否结案CASE_END非空率
+转归代码OUTCOME_CODE非空率
+
+
+字段名
+非空率CANCER_PATIENTS_FILE_NUMBER
+非空率INSTITUTION_CODE_BUILDING_FILE
+非空率INSTITUTION_NAME_BUILDING_FILE
+非空率BASIC_PERSONAL_INFO_NO
+非空率ID_NUMBER
+非空率INFORMED_CONDITION_TYPE_CODE
+非空率PATIENT_SOURCE
+非空率NAME_OF_DISEASE_DIAGNOSIS
+非空率CODE_OF_TUMOR_DIAGNOSIS
+非空率FIRST_VISITING_DATE
+非空率DATE_OF_CONFIRMATION
+非空率FAMILIY_HISTORY_OF_TUMOR
+非空率FAMILIAL_TUMOR_TYPE
+非空率RELATION_WITH_FAMILY_DISEASE
+非空率TNM_CODE
+非空率TUMOR_CLINICAL_STAGE_CODE
+非空率PATHOLOGICAL_EXAMINATION
+非空率TUMOR_DIFFERENTIATION
+非空率TREATMENT
+非空率REPORT_UNIT
+非空率REPORT_DATE
+非空率DATE_OF_BUILDING_FILE
+非空率DOCTOR_ID_OF_BUILDING_FILE
+非空率DOCTOR_NAME_OF_BUILDING_FILE
+非空率RESPONSIBLE_DOCTOR_ID
+非空率RESPONSIBLE_DOCTOR_NAME
+非空率ADMINISTRATION_CODE
+非空率ADMINISTRATION_NAME
+非空率FILE_STATUS
+非空率CANCER_DEATH
+非空率CASE_END
+非空率OUTCOME_CODE
+
+
+
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100001', '肿瘤患者档案标识号CANCER_PATIENTS_FILE_NUMBER非空率', '1', '201022', 'CANCER_PATIENTS_FILE_NUMBER', 'CANCER_PATIENTS_FILE_NUMBER', null, null, null, 'WHERE TRIM(CANCER_PATIENTS_FILE_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100002', '建档机构代码INSTITUTION_CODE_BUILDING_FILE非空率', '1', '201022', 'INSTITUTION_CODE_BUILDING_FILE', 'INSTITUTION_CODE_BUILDING_FILE', null, null, null, 'WHERE TRIM(INSTITUTION_CODE_BUILDING_FILE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100003', '建档机构名称INSTITUTION_NAME_BUILDING_FILE非空率', '1', '201022', 'INSTITUTION_NAME_BUILDING_FILE', 'INSTITUTION_NAME_BUILDING_FILE', null, null, null, 'WHERE TRIM(INSTITUTION_NAME_BUILDING_FILE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100004', '个人基本信息标识号BASIC_PERSONAL_INFO_NO非空率', '1', '201022', 'BASIC_PERSONAL_INFO_NO', 'BASIC_PERSONAL_INFO_NO', null, null, null, 'WHERE TRIM(BASIC_PERSONAL_INFO_NO) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100005', '身份证号码ID_NUMBER非空率', '1', '201022', 'ID_NUMBER', 'ID_NUMBER', null, null, null, 'WHERE TRIM(ID_NUMBER) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100006', '肿瘤病情告知病人情况类别代码INFORMED_CONDITION_TYPE_CODE非空率', '1', '201022', 'INFORMED_CONDITION_TYPE_CODE', 'INFORMED_CONDITION_TYPE_CODE', null, null, null, 'WHERE TRIM(INFORMED_CONDITION_TYPE_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100007', '病人来源PATIENT_SOURCE非空率', '1', '201022', 'PATIENT_SOURCE', 'PATIENT_SOURCE', null, null, null, 'WHERE TRIM(PATIENT_SOURCE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100008', '疾病诊断名称NAME_OF_DISEASE_DIAGNOSIS非空率', '1', '201022', 'NAME_OF_DISEASE_DIAGNOSIS', 'NAME_OF_DISEASE_DIAGNOSIS', null, null, null, 'WHERE TRIM(NAME_OF_DISEASE_DIAGNOSIS) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100009', '肿瘤诊断代码CODE_OF_TUMOR_DIAGNOSIS非空率', '1', '201022', 'CODE_OF_TUMOR_DIAGNOSIS', 'CODE_OF_TUMOR_DIAGNOSIS', null, null, null, 'WHERE TRIM(CODE_OF_TUMOR_DIAGNOSIS) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100010', '首次就诊日期FIRST_VISITING_DATE非空率', '1', '201022', 'FIRST_VISITING_DATE', 'FIRST_VISITING_DATE', null, null, null, 'WHERE TRIM(FIRST_VISITING_DATE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100011', '确诊日期DATE_OF_CONFIRMATION非空率', '1', '201022', 'DATE_OF_CONFIRMATION', 'DATE_OF_CONFIRMATION', null, null, null, 'WHERE TRIM(DATE_OF_CONFIRMATION) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100012', '肿瘤家族史标志FAMILIY_HISTORY_OF_TUMOR非空率', '1', '201022', 'FAMILIY_HISTORY_OF_TUMOR', 'FAMILIY_HISTORY_OF_TUMOR', null, null, null, 'WHERE TRIM(FAMILIY_HISTORY_OF_TUMOR) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100013', '肿瘤家族史瘤别FAMILIAL_TUMOR_TYPE非空率', '1', '201022', 'FAMILIAL_TUMOR_TYPE', 'FAMILIAL_TUMOR_TYPE', null, null, null, 'WHERE TRIM(FAMILIAL_TUMOR_TYPE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100014', '患家族病成员与本人关系代码RELATION_WITH_FAMILY_DISEASE非空率', '1', '201022', 'RELATION_WITH_FAMILY_DISEASE', 'RELATION_WITH_FAMILY_DISEASE', null, null, null, 'WHERE TRIM(RELATION_WITH_FAMILY_DISEASE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100015', '肿瘤TNM分期代码TNM_CODE非空率', '1', '201022', 'TNM_CODE', 'TNM_CODE', null, null, null, 'WHERE TRIM(TNM_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100016', '肿瘤临床分期代码TUMOR_CLINICAL_STAGE_CODE非空率', '1', '201022', 'TUMOR_CLINICAL_STAGE_CODE', 'TUMOR_CLINICAL_STAGE_CODE', null, null, null, 'WHERE TRIM(TUMOR_CLINICAL_STAGE_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100017', '是否做病理学检查PATHOLOGICAL_EXAMINATION非空率', '1', '201022', 'PATHOLOGICAL_EXAMINATION', 'PATHOLOGICAL_EXAMINATION', null, null, null, 'WHERE TRIM(PATHOLOGICAL_EXAMINATION) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100018', '分化程度TUMOR_DIFFERENTIATION非空率', '1', '201022', 'TUMOR_DIFFERENTIATION', 'TUMOR_DIFFERENTIATION', null, null, null, 'WHERE TRIM(TUMOR_DIFFERENTIATION) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100019', '是否治疗TREATMENT非空率', '1', '201022', 'TREATMENT', 'TREATMENT', null, null, null, 'WHERE TRIM(TREATMENT) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100020', '报告单位REPORT_UNIT非空率', '1', '201022', 'REPORT_UNIT', 'REPORT_UNIT', null, null, null, 'WHERE TRIM(REPORT_UNIT) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100021', '报告日期REPORT_DATE非空率', '1', '201022', 'REPORT_DATE', 'REPORT_DATE', null, null, null, 'WHERE TRIM(REPORT_DATE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100022', '建档日期DATE_OF_BUILDING_FILE非空率', '1', '201022', 'DATE_OF_BUILDING_FILE', 'DATE_OF_BUILDING_FILE', null, null, null, 'WHERE TRIM(DATE_OF_BUILDING_FILE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100023', '建档医生工号DOCTOR_ID_OF_BUILDING_FILE非空率', '1', '201022', 'DOCTOR_ID_OF_BUILDING_FILE', 'DOCTOR_ID_OF_BUILDING_FILE', null, null, null, 'WHERE TRIM(DOCTOR_ID_OF_BUILDING_FILE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100024', '建档医生姓名DOCTOR_NAME_OF_BUILDING_FILE非空率', '1', '201022', 'DOCTOR_NAME_OF_BUILDING_FILE', 'DOCTOR_NAME_OF_BUILDING_FILE', null, null, null, 'WHERE TRIM(DOCTOR_NAME_OF_BUILDING_FILE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100025', '责任医生工号RESPONSIBLE_DOCTOR_ID非空率', '1', '201022', 'RESPONSIBLE_DOCTOR_ID', 'RESPONSIBLE_DOCTOR_ID', null, null, null, 'WHERE TRIM(RESPONSIBLE_DOCTOR_ID) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100026', '责任医生姓名RESPONSIBLE_DOCTOR_NAME非空率', '1', '201022', 'RESPONSIBLE_DOCTOR_NAME', 'RESPONSIBLE_DOCTOR_NAME', null, null, null, 'WHERE TRIM(RESPONSIBLE_DOCTOR_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100027', '管理机构代码ADMINISTRATION_CODE非空率', '1', '201022', 'ADMINISTRATION_CODE', 'ADMINISTRATION_CODE', null, null, null, 'WHERE TRIM(ADMINISTRATION_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100028', '管理机构名称ADMINISTRATION_NAME非空率', '1', '201022', 'ADMINISTRATION_NAME', 'ADMINISTRATION_NAME', null, null, null, 'WHERE TRIM(ADMINISTRATION_NAME) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100029', '档案状态FILE_STATUS非空率', '1', '201022', 'FILE_STATUS', 'FILE_STATUS', null, null, null, 'WHERE TRIM(FILE_STATUS) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100030', '是否因肿瘤死亡标志CANCER_DEATH非空率', '1', '201022', 'CANCER_DEATH', 'CANCER_DEATH', null, null, null, 'WHERE TRIM(CANCER_DEATH) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100031', '是否结案CASE_END非空率', '1', '201022', 'CASE_END', 'CASE_END', null, null, null, 'WHERE TRIM(CASE_END) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100032', '转归代码OUTCOME_CODE非空率', '1', '201022', 'OUTCOME_CODE', 'OUTCOME_CODE', null, null, null, 'WHERE TRIM(OUTCOME_CODE) IS NULL', '3', '根据平台要求此字段必须上传', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+
+
+
+
+肿瘤病情告知病人情况类别代码INFORMED_CONDITION_TYPE_CODE
+患家族病成员与本人关系代码RELATION_WITH_FAMILY_DISEASE
+肿瘤临床分期代码TUMOR_CLINICAL_STAGE_CODE
+转归代码OUTCOME_CODE
+
+
+
+
+INFORMED_CONDITION_TYPE_CODE
+RELATION_WITH_FAMILY_DISEASE
+TUMOR_CLINICAL_STAGE_CODE
+OUTCOME_CODE
+
+GZCV4201.04
+GB/T4761-2008
+CV5502.17
+CV5501.02
+
+
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100033', '肿瘤病情告知病人情况类别代码INFORMED_CONDITION_TYPE_CODE规范率', '2', '201022', 'INFORMED_CONDITION_TYPE_CODE', 'INFORMED_CONDITION_TYPE_CODE', 'TB_EHR_DICTIONARY', 'GZCV4201.04', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GZCV4201.04'' AND A.VALUE=T.INFORMED_CONDITION_TYPE_CODE) AND T.INFORMED_CONDITION_TYPE_CODE IS NOT NULL', '3', '不在字典GZCV4201.04范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100034', '患家族病成员与本人关系代码RELATION_WITH_FAMILY_DISEASE规范率', '2', '201022', 'RELATION_WITH_FAMILY_DISEASE', 'RELATION_WITH_FAMILY_DISEASE', 'TB_EHR_DICTIONARY', 'GB/T4761-2008', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''GB/T4761-2008'' AND A.VALUE=T.RELATION_WITH_FAMILY_DISEASE) AND T.RELATION_WITH_FAMILY_DISEASE IS NOT NULL', '3', '不在字典GB/T4761-2008范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100035', '肿瘤临床分期代码TUMOR_CLINICAL_STAGE_CODE规范率', '2', '201022', 'TUMOR_CLINICAL_STAGE_CODE', 'TUMOR_CLINICAL_STAGE_CODE', 'TB_EHR_DICTIONARY', 'CV5502.17', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV5502.17'' AND A.VALUE=T.TUMOR_CLINICAL_STAGE_CODE) AND T.TUMOR_CLINICAL_STAGE_CODE IS NOT NULL', '3', '不在字典CV5502.17范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_ACCURACY" ( "ID", "IDX_NM", "IDX_TYPE_CD", "F_TAB_CD", "CHK_COLS", "VIEW_COSL", "CODE_TAB_ENM", "CODE_TAB_KEY", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '201022100036', '转归代码OUTCOME_CODE规范率', '2', '201022', 'OUTCOME_CODE', 'OUTCOME_CODE', 'TB_EHR_DICTIONARY', 'CV5501.02', null, 'WHERE NOT EXISTS(SELECT 1 FROM TB_EHR_DICTIONARY A WHERE A.NAME=''CV5501.02'' AND A.VALUE=T.OUTCOME_CODE) AND T.OUTCOME_CODE IS NOT NULL', '3', '不在字典CV5501.02范围内', '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));

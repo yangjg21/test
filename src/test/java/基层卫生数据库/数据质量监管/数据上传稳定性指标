@@ -1,0 +1,388 @@
+
+
+
+
+
+
+
+
+
+
+
+
+老内容：
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101001400001', '患者基础信息表是否上传', '101001', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101002400002', '挂号表是否上传', '101002', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101003400003', '门急诊就诊记录表是否上传', '101003', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101004400004', '处方表是否上传', '101004', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101005400005', '处方明细表是否上传', '101005', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101006400006', '门急诊手术记录表是否上传', '101006', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101007400007', '门急诊收费表是否上传', '101007', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101008400008', '门急诊收费明细表是否上传', '101008', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101009400009', '入院登记表是否上传', '101009', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101010400010', '出院登记表是否上传', '101010', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101011400011', '住院就诊信息表是否上传', '101011', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101012400012', '住院医嘱明细表是否上传', '101012', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101013400013', '住院医嘱执行明细表是否上传', '101013', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101014400014', '手术记录表是否上传', '101014', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101015400015', '出院小结是否上传', '101015', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101016400016', '在/出院结算表是否上传', '101016', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101017400017', '结算明细表是否上传', '101017', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101018400018', '住院病案首页是否上传', '101018', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101019400019', '在院诊断明细表是否上传', '101019', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101020400020', '出院诊断明细表是否上传', '101020', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101021400021', '三测单是否上传', '101021', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101022400022', '体检总检是否上传', '101022', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101023400023', '体检项目小结是否上传', '101023', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101024400024', '体检明细指标是否上传', '101024', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101025400025', '电子申请单是否上传', '101025', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101026400026', '实验室检验报告表是否上传', '101026', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101027400027', '检验结果指标表是否上传', '101027', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101028400028', '细菌结果是否上传', '101028', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101029400029', '药敏结果是否上传', '101029', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101030400030', '医学影像检查报告表是否上传', '101030', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101031400031', '业务量、收入统计表是否上传', '101031', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101032400032', '门诊排班是否上传', '101032', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101033400033', '药房出库监控是否上传', '101033', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101034400034', '药房入库监控是否上传', '101034', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101035400035', '药房库存监控是否上传', '101035', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101036400036', '药库出库监控是否上传', '101036', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101037400037', '药库入库监控是否上传', '101037', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101038400038', '药库库存监控是否上传', '101038', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+
+
+
+新内容：
+
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044001', '患者基础信息表是否上传', '101001', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044002', '挂号表是否上传', '101002', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044003', '门急诊就诊记录表是否上传', '101003', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044004', '处方表是否上传', '101004', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044005', '处方明细表是否上传', '101005', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044006', '门急诊手术记录表是否上传', '101006', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044007', '门急诊收费表是否上传', '101007', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044008', '门急诊收费明细表是否上传', '101008', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044009', '入院登记表是否上传', '101009', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044010', '出院登记表是否上传', '101010', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044011', '住院就诊信息表是否上传', '101011', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044012', '住院医嘱明细表是否上传', '101012', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044013', '住院医嘱执行明细表是否上传', '101013', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044014', '手术记录表是否上传', '101014', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044015', '出院小结是否上传', '101015', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044016', '在/出院结算表是否上传', '101016', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044017', '结算明细表是否上传', '101017', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044018', '住院病案首页是否上传', '101018', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044019', '在院诊断明细表是否上传', '101019', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044020', '出院诊断明细表是否上传', '101020', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044021', '三测单是否上传', '101021', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044022', '体检总检是否上传', '101022', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044023', '体检项目小结是否上传', '101023', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044024', '体检明细指标是否上传', '101024', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044025', '电子申请单是否上传', '101025', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044026', '实验室检验报告表是否上传', '101026', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044027', '检验结果指标表是否上传', '101027', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044028', '细菌结果是否上传', '101028', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044029', '药敏结果是否上传', '101029', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044030', '医学影像检查报告表是否上传', '101030', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044031', '业务量、收入统计表是否上传', '101031', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044032', '门诊排班是否上传', '101032', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044033', '药房出库监控是否上传', '101033', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044034', '药房入库监控是否上传', '101034', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044035', '药房库存监控是否上传', '101035', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044036', '药库出库监控是否上传', '101036', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044037', '药库入库监控是否上传', '101037', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '4401044038', '药库库存监控是否上传', '101038', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+
+
+
+
+
+
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044039', '个人基本信息 是否上传', '201001', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044040', '建档信息 是否上传', '201002', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044041', '个人健康信息 是否上传', '201003', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044042', '既往史表 是否上传', '201004', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044043', '疾病史表 是否上传', '201005', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044044', '手术史表 是否上传', '201006', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044045', '外伤史表 是否上传', '201007', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044046', '输血史表 是否上传', '201008', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044047', '药物过敏史表 是否上传', '201009', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044048', '生育史表 是否上传', '201010', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044049', '住院史表 是否上传', '201011', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044050', '个人健康档案首页表 是否上传', '201012', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044051', '高血压病例基本信息 是否上传', '201013', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044052', '高血压病例随访记录 是否上传', '201014', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044053', '高血压辅助检查记录 是否上传', '201015', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044054', '高血压用药记录 是否上传', '201016', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044055', '高血压社区分组记录表 是否上传', '201017', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044056', '糖尿病病例基本信息 是否上传', '201018', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044057', '糖尿病病例随访记录 是否上传', '201019', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044058', '糖尿病辅助检查记录 是否上传', '201020', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044059', '糖尿病用药记录 是否上传', '201021', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044060', '肿瘤病例基本信息 是否上传', '201022', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044061', '肿瘤病例随访记录 是否上传', '201023', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044062', '肿瘤质控 是否上传', '201024', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044063', '肿瘤辅助检查记录 是否上传', '201025', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044064', '肿瘤患者用药记录 是否上传', '201026', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044065', '肿瘤首次访视内容 是否上传', '201027', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044066', '精神分裂症病例基本信息 是否上传', '201028', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044067', '精神分裂症病例随访记录 是否上传', '201029', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044068', '精神分裂症辅助检查记录 是否上传', '201030', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044069', '精神分裂症患者用药记录 是否上传', '201031', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044070', '精神病住院医疗救助表 是否上传', '201032', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044071', '精神病家族史记录表 是否上传', '201033', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044072', '肺结核病专项卡 是否上传', '201034', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044073', '肺结核病随访记录表 是否上传', '201035', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044074', '老年人基本信息 是否上传', '201036', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044075', '老年人随访记录 是否上传', '201037', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044076', '老年人辅助检查记录 是否上传', '201038', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044077', '老年人用药记录 是否上传', '201039', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044078', '老年人生活自理评估表 是否上传', '201040', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044079', '老年人健康体检表 是否上传', '201041', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044080', '残疾人基本信息 是否上传', '201042', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044081', '残疾人随访记录 是否上传', '201043', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044082', '残疾人辅助检查记录 是否上传', '201044', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044083', '残疾人用药记录 是否上传', '201045', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044084', '儿童基本信息 是否上传', '201046', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044085', '接种信息 是否上传', '201047', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044086', '异常反应史 是否上传', '201048', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044087', '健康教育活动计划表 是否上传', '201049', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044088', '健康教育活动记录表 是否上传', '201050', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044089', '卫生监督协管信息报告登记表 是否上传', '201051', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044090', '卫生监督协管巡查登记表 是否上传', '201052', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044091', '健康体检 是否上传', '201053', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044092', '住院治疗情况(体检) 是否上传', '201054', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044093', '主要用药情况(体检) 是否上传', '201055', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044094', '非免疫规划预防接种史(体检) 是否上传', '201056', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044095', '周岁婴儿健康体检表 是否上传', '201057', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044096', '1-6 岁儿童健康检查表 是否上传', '201058', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044097', '中小学在校学生健康体检表 是否上传', '201059', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044098', '7岁—64岁人群健康体检表 是否上传', '201060', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044099', '65 岁及以上老年人健康体检表 是否上传', '201061', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044100', '全民健康体检居民基本情况自填表 是否上传', '201062', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044101', '育龄妇女全民健康体检表 是否上传', '201063', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044102', '老年人中医药健康管理服务记录表 是否上传', '201064', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044103', '6～18月龄儿童中医药健康管理服务记录表 是否上传', '201065', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044104', '24～36月龄儿童中医药健康管理服务记录表 是否上传', '201066', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044105', '家庭健康信息 是否上传', '201067', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044106', '家庭成员关系 是否上传', '201068', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044107', '科室信息 是否上传', '201069', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044108', '医护人员信息 是否上传', '201070', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_STABLE" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401044109', '仪器信息 是否上传', '201071', null, null, null, '上传得100分，未传得0分', 'S10002', '0', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+
+
+个人基本信息 是否上传
+建档信息 是否上传
+个人健康信息 是否上传
+既往史表 是否上传
+疾病史表 是否上传
+手术史表 是否上传
+外伤史表 是否上传
+输血史表 是否上传
+药物过敏史表 是否上传
+生育史表 是否上传
+住院史表 是否上传
+个人健康档案首页表 是否上传
+高血压病例基本信息 是否上传
+高血压病例随访记录 是否上传
+高血压辅助检查记录 是否上传
+高血压用药记录 是否上传
+高血压社区分组记录表 是否上传
+糖尿病病例基本信息 是否上传
+糖尿病病例随访记录 是否上传
+糖尿病辅助检查记录 是否上传
+糖尿病用药记录 是否上传
+肿瘤病例基本信息 是否上传
+肿瘤病例随访记录 是否上传
+肿瘤质控 是否上传
+肿瘤辅助检查记录 是否上传
+肿瘤患者用药记录 是否上传
+肿瘤首次访视内容 是否上传
+精神分裂症病例基本信息 是否上传
+精神分裂症病例随访记录 是否上传
+精神分裂症辅助检查记录 是否上传
+精神分裂症患者用药记录 是否上传
+精神病住院医疗救助表 是否上传
+精神病家族史记录表 是否上传
+肺结核病专项卡 是否上传
+肺结核病随访记录表 是否上传
+老年人基本信息 是否上传
+老年人随访记录 是否上传
+老年人辅助检查记录 是否上传
+老年人用药记录 是否上传
+老年人生活自理评估表 是否上传
+老年人健康体检表 是否上传
+残疾人基本信息 是否上传
+残疾人随访记录 是否上传
+残疾人辅助检查记录 是否上传
+残疾人用药记录 是否上传
+儿童基本信息 是否上传
+接种信息 是否上传
+异常反应史 是否上传
+健康教育活动计划表 是否上传
+健康教育活动记录表 是否上传
+卫生监督协管信息报告登记表 是否上传
+卫生监督协管巡查登记表 是否上传
+健康体检 是否上传
+住院治疗情况(体检) 是否上传
+主要用药情况(体检) 是否上传
+非免疫规划预防接种史(体检) 是否上传
+周岁婴儿健康体检表 是否上传
+1-6 岁儿童健康检查表 是否上传
+中小学在校学生健康体检表 是否上传
+7岁—64岁人群健康体检表 是否上传
+65 岁及以上老年人健康体检表 是否上传
+全民健康体检居民基本情况自填表 是否上传
+育龄妇女全民健康体检表 是否上传
+老年人中医药健康管理服务记录表 是否上传
+6～18月龄儿童中医药健康管理服务记录表 是否上传
+24～36月龄儿童中医药健康管理服务记录表 是否上传
+家庭健康信息 是否上传
+家庭成员关系 是否上传
+科室信息 是否上传
+医护人员信息 是否上传
+仪器信息 是否上传
+
+
+201001
+201002
+201003
+201004
+201005
+201006
+201007
+201008
+201009
+201010
+201011
+201012
+201013
+201014
+201015
+201016
+201017
+201018
+201019
+201020
+201021
+201022
+201023
+201024
+201025
+201026
+201027
+201028
+201029
+201030
+201031
+201032
+201033
+201034
+201035
+201036
+201037
+201038
+201039
+201040
+201041
+201042
+201043
+201044
+201045
+201046
+201047
+201048
+201049
+201050
+201051
+201052
+201053
+201054
+201055
+201056
+201057
+201058
+201059
+201060
+201061
+201062
+201063
+201064
+201065
+201066
+201067
+201068
+201069
+201070
+201071

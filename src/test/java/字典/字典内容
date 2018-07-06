@@ -1,0 +1,103 @@
+insert into "RHIN_SYS"."TB_DI_BIZ_DIC_TYPE" ( "TYPE_ID", "TYPE_KEY", "TYPE_NAME", "TYPE_DESCRIPTION", "TYPE_CATEGORY", "TYPE_LEVEL", "CREATE_PERSON_ID", "CREATE_TIME", "UPDATE_PERSON_ID", "UPDATE_TIME", "DEL_MARK", "PARENT_ID", "SOURCE", "CAN_EDIT") values
+( '10000277', 'CV02.01.101', '证件类型', '证件类型', 'CV02.01.101', null, null, null, null, null, '0', null, '4.0标准', '0');
+
+
+证件类型（CV02.01.101）
+
+
+
+
+insert into "RHIN_SYS"."TB_DI_BIZ_DIC_ITEM" ( "ITEM_ID", "TYPE_ID", "ITEM_CODE", "ITEM_NAME", "ITEM_DESCRIPTION", "SEQ", "PARENT_CODE", "CREATE_PERSON_ID", "CREATE_TIME", "UPDATE_PERSON_ID", "UPDATE_TIME", "DEL_MARK", "START_DATE", "END_DATE") values
+( '10000001', '10000277', '01', '居民身份证', '居民身份证', null, '证件类型', null, null, null, null, '0', null, null);
+
+
+insert into "RHIN_SYS"."TB_DI_BIZ_DIC_ITEM" ( "ITEM_ID", "TYPE_ID", "ITEM_CODE", "ITEM_NAME", "ITEM_DESCRIPTION", "SEQ", "PARENT_CODE", "CREATE_PERSON_ID", "CREATE_TIME", "UPDATE_PERSON_ID", "UPDATE_TIME", "DEL_MARK", "START_DATE", "END_DATE") values
+( '10000001', '10000277', '01', '居民身份证', '居民身份证', null, '证件类型', null, null, null, null, '0', null, null);
+insert into "RHIN_SYS"."TB_DI_BIZ_DIC_ITEM" ( "ITEM_ID", "TYPE_ID", "ITEM_CODE", "ITEM_NAME", "ITEM_DESCRIPTION", "SEQ", "PARENT_CODE", "CREATE_PERSON_ID", "CREATE_TIME", "UPDATE_PERSON_ID", "UPDATE_TIME", "DEL_MARK", "START_DATE", "END_DATE") values
+( '10000001', '10000277', '02', '居民户口簿', '居民户口簿', null, '证件类型', null, null, null, null, '0', null, null);
+insert into "RHIN_SYS"."TB_DI_BIZ_DIC_ITEM" ( "ITEM_ID", "TYPE_ID", "ITEM_CODE", "ITEM_NAME", "ITEM_DESCRIPTION", "SEQ", "PARENT_CODE", "CREATE_PERSON_ID", "CREATE_TIME", "UPDATE_PERSON_ID", "UPDATE_TIME", "DEL_MARK", "START_DATE", "END_DATE") values
+( '10000001', '10000277', '03', '护照', '护照', null, '证件类型', null, null, null, null, '0', null, null);
+insert into "RHIN_SYS"."TB_DI_BIZ_DIC_ITEM" ( "ITEM_ID", "TYPE_ID", "ITEM_CODE", "ITEM_NAME", "ITEM_DESCRIPTION", "SEQ", "PARENT_CODE", "CREATE_PERSON_ID", "CREATE_TIME", "UPDATE_PERSON_ID", "UPDATE_TIME", "DEL_MARK", "START_DATE", "END_DATE") values
+( '10000001', '10000277', '04', '军官证', '军官证', null, '证件类型', null, null, null, null, '0', null, null);
+insert into "RHIN_SYS"."TB_DI_BIZ_DIC_ITEM" ( "ITEM_ID", "TYPE_ID", "ITEM_CODE", "ITEM_NAME", "ITEM_DESCRIPTION", "SEQ", "PARENT_CODE", "CREATE_PERSON_ID", "CREATE_TIME", "UPDATE_PERSON_ID", "UPDATE_TIME", "DEL_MARK", "START_DATE", "END_DATE") values
+( '10000001', '10000277', '05', '驾驶证', '驾驶证', null, '证件类型', null, null, null, null, '0', null, null);
+insert into "RHIN_SYS"."TB_DI_BIZ_DIC_ITEM" ( "ITEM_ID", "TYPE_ID", "ITEM_CODE", "ITEM_NAME", "ITEM_DESCRIPTION", "SEQ", "PARENT_CODE", "CREATE_PERSON_ID", "CREATE_TIME", "UPDATE_PERSON_ID", "UPDATE_TIME", "DEL_MARK", "START_DATE", "END_DATE") values
+( '10000001', '10000277', '06', '港澳居民来往内地通行证', '港澳居民来往内地通行证', null, '证件类型', null, null, null, null, '0', null, null);
+insert into "RHIN_SYS"."TB_DI_BIZ_DIC_ITEM" ( "ITEM_ID", "TYPE_ID", "ITEM_CODE", "ITEM_NAME", "ITEM_DESCRIPTION", "SEQ", "PARENT_CODE", "CREATE_PERSON_ID", "CREATE_TIME", "UPDATE_PERSON_ID", "UPDATE_TIME", "DEL_MARK", "START_DATE", "END_DATE") values
+( '10000001', '10000277', '07', '台湾居民来往内地通行证', '台湾居民来往内地通行证', null, '证件类型', null, null, null, null, '0', null, null);
+insert into "RHIN_SYS"."TB_DI_BIZ_DIC_ITEM" ( "ITEM_ID", "TYPE_ID", "ITEM_CODE", "ITEM_NAME", "ITEM_DESCRIPTION", "SEQ", "PARENT_CODE", "CREATE_PERSON_ID", "CREATE_TIME", "UPDATE_PERSON_ID", "UPDATE_TIME", "DEL_MARK", "START_DATE", "END_DATE") values
+( '10000001', '10000277', '99', '其他法定有效证件', '其他法定有效证件', null, '证件类型', null, null, null, null, '0', null, null);
+
+
+
+
+
+
+01
+02
+03
+04
+05
+06
+07
+99
+
+
+居民身份证
+居民户口簿
+护照
+军官证
+驾驶证
+港澳居民来往内地通行证
+台湾居民来往内地通行证
+其他法定有效证件
+
+
+
+insert into "SMART_INFO"."TB_EHR_DICTIONARY" ( "NAME", "VALUE", "DESCRIPTION") values ( 'CV03.00.115', '1', '自来水');
+insert into "SMART_INFO"."TB_EHR_DICTIONARY" ( "NAME", "VALUE", "DESCRIPTION") values ( 'CV03.00.115', '2', '经净化过滤的水');
+insert into "SMART_INFO"."TB_EHR_DICTIONARY" ( "NAME", "VALUE", "DESCRIPTION") values ( 'CV03.00.115', '3', '井水');
+insert into "SMART_INFO"."TB_EHR_DICTIONARY" ( "NAME", "VALUE", "DESCRIPTION") values ( 'CV03.00.115', '4', '河湖水');
+insert into "SMART_INFO"."TB_EHR_DICTIONARY" ( "NAME", "VALUE", "DESCRIPTION") values ( 'CV03.00.115', '5', '塘水');
+insert into "SMART_INFO"."TB_EHR_DICTIONARY" ( "NAME", "VALUE", "DESCRIPTION") values ( 'CV03.00.115', '9', '其他');
+
+
+CV03.00.115
+
+1
+2
+3
+4
+5
+9
+
+自来水
+经净化过滤的水
+井水
+河湖水
+塘水
+其他
+
+
+
+insert into "SMART_INFO"."TB_EHR_DICTIONARY" ( "NAME", "VALUE", "DESCRIPTION") values ( 'CV0299.01', '1', '<1000元');
+insert into "SMART_INFO"."TB_EHR_DICTIONARY" ( "NAME", "VALUE", "DESCRIPTION") values ( 'CV0299.01', '2', '1000－1999元');
+insert into "SMART_INFO"."TB_EHR_DICTIONARY" ( "NAME", "VALUE", "DESCRIPTION") values ( 'CV0299.01', '3', '2000－3999元');
+insert into "SMART_INFO"."TB_EHR_DICTIONARY" ( "NAME", "VALUE", "DESCRIPTION") values ( 'CV0299.01', '4', '4000－7999元');
+insert into "SMART_INFO"."TB_EHR_DICTIONARY" ( "NAME", "VALUE", "DESCRIPTION") values ( 'CV0299.01', '5', '8000元及以上');
+
+
+
+CV0299.01
+
+1
+2
+3
+4
+5
+
+<1000元
+1000－1999元
+2000－3999元
+4000－7999元
+8000元及以上

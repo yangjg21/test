@@ -1,0 +1,405 @@
+
+
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss')
+
+
+
+
+
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+
+
+101002500001
+101007500002
+101009500003
+101010500004
+101016500005
+101003500006
+101005500007
+101011500008
+101012500009
+101017500010
+101026500011
+101030500012
+101014500013
+101015500014
+
+101005500015
+101007500016
+101026500017
+101030500018
+
+101012500019
+101007500020
+101017500021
+101015500022
+101026500023
+101030500024
+101019500025
+101020500026
+101014500027
+
+101027500028
+101028500029
+101029500030
+
+500031
+500032
+500033
+500034
+500035
+500036
+500037
+500038
+500039
+500040
+500041
+500042
+500043
+
+
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101002500001', '患者基本信息挂号率', '101002', null, 'where not exists(select 1 from TB_CIS_OP_REGISTRATION a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101007500002', '患者基本信息收费率', '101007', null, 'where not exists(select 1 from TB_HIS_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101009500003', '患者基本信息入院登记率', '101009', null, 'where not exists(select 1 from TB_CIS_ADMISSION_REGISTER a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101010500004', '患者基本信息出院登记率', '101010', null, 'where not exists(select 1 from TB_CIS_DISCHARGE_REGISTER a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101016500005', '患者基本信息在/出院结算率', '101016', null, 'where not exists(select 1 from TB_CIS_LH_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101003500006', '患者基本信息门诊就诊记录率', '101003', null, 'where not exists(select 1 from TB_CIS_OP_VISITING_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101005500007', '患者基本信息门诊处方明细率', '101005', null, 'where not exists(select 1 from TB_CIS_OP_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101011500008', '患者基本信息住院就诊记录率', '101011', null, 'where not exists(select 1 from TB_CIS_IH_VISITING_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101012500009', '患者基本信息住院医嘱明细率', '101012', null, 'where not exists(select 1 from TB_CIS_IH_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101017500010', '患者基本信息住院费用结算率', '101017', null, 'where not exists(select 1 from TB_CIS_LH_FEE_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101026500011', '患者基本信息实验室检验报告率', '101026', null, 'where not exists(select 1 from TB_LIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101030500012', '患者基本信息医学影像检查报告率', '101030', null, 'where not exists(select 1 from TB_RIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101014500013', '患者基本信息手术明细率', '101014', null, 'where not exists(select 1 from TB_CIS_OPERATION_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101015500014', '患者基本信息出院小结率', '101015', null, 'where not exists(select 1 from TB_CIS_LH_SUMMARY a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+where not exists(select 1 from TB_CIS_OP_REGISTRATION a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_HIS_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_CIS_ADMISSION_REGISTER a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_CIS_DISCHARGE_REGISTER a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_CIS_LH_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_CIS_OP_VISITING_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_CIS_OP_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_CIS_IH_VISITING_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_CIS_IH_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_CIS_LH_FEE_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_LIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_RIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_CIS_OPERATION_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+where not exists(select 1 from TB_CIS_LH_SUMMARY a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)
+101002 患者基本信息挂号率                TB_CIS_OP_REGISTRATION
+101007 患者基本信息收费率                TB_HIS_FEE_RECORD
+101009 患者基本信息入院登记率              TB_CIS_ADMISSION_REGISTER
+101010 患者基本信息出院登记率              TB_CIS_DISCHARGE_REGISTER
+101016 患者基本信息在/出院结算率            TB_CIS_LH_FEE_RECORD
+101003 患者基本信息门诊就诊记录率            TB_CIS_OP_VISITING_RECORD
+101005 患者基本信息门诊处方明细率            TB_CIS_OP_DOCTOR_ADVICE
+101011 患者基本信息住院就诊记录率            TB_CIS_IH_VISITING_RECORD
+101012 患者基本信息住院医嘱明细率            TB_CIS_IH_DOCTOR_ADVICE
+101017 患者基本信息住院费用结算率            TB_CIS_LH_FEE_DETAIL
+101026 患者基本信息实验室检验报告率           TB_LIS_REPORT
+101030 患者基本信息医学影像检查报告率          TB_RIS_REPORT
+101014 患者基本信息手术明细率              TB_CIS_OPERATION_DETAIL
+101015 患者基本信息出院小结率              TB_CIS_LH_SUMMARY
+
+
+
+
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101005500015', '门诊就诊记录信息门诊处方明细率', '101005', null, 'where not exists(select 1 from TB_CIS_OP_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101007500016', '门诊就诊记录信息收费率', '101007', null, 'where not exists(select 1 from TB_HIS_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101026500017', '门诊就诊记录信息实验室检验报告率 ', '101026', null, 'where not exists(select 1 from TB_LIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101030500018', '门诊就诊记录信息医学影像检查报告率', '101030', null, 'where not exists(select 1 from TB_RIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+where not exists(select 1 from TB_CIS_OP_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+where not exists(select 1 from TB_HIS_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+where not exists(select 1 from TB_LIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+where not exists(select 1 from TB_RIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+101005 门诊就诊记录信息门诊处方明细率              TB_CIS_OP_DOCTOR_ADVICE
+101007 门诊就诊记录信息收费率                  TB_HIS_FEE_RECORD
+101026 门诊就诊记录信息实验室检验报告率             TB_LIS_REPORT
+101030 门诊就诊记录信息医学影像检查报告率            TB_RIS_REPORT
+
+
+
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101012500019', '住院就诊记录信息-住院医嘱明细率', '101012', null, 'where not exists(select 1 from TB_CIS_IH_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101007500020', '住院就诊记录信息-收费率', '101007', null, 'where not exists(select 1 from TB_HIS_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101017500021', '住院就诊记录信息-住院费用结算明细率', '101017', null, 'where not exists(select 1 from TB_CIS_LH_FEE_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101015500022', '住院就诊记录信息-出院小结率', '101015', null, 'where not exists(select 1 from TB_CIS_LH_SUMMARY a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101026500023', '住院就诊记录信息-实验室检验报告率', '101026', null, 'where not exists(select 1 from TB_LIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101030500024', '住院就诊记录信息-医学影像检查报告率', '101030', null, 'where not exists(select 1 from TB_RIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101019500025', '住院就诊记录信息-在院诊断明细率', '101019', null, 'where not exists(select 1 from TB_CIS_IH_DIAGNOSIS_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101020500026', '住院就诊记录信息-出院诊断明细率', '101020', null, 'where not exists(select 1 from TB_CIS_LH_DIAGNOSIS_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101014500027', '住院就诊记录信息-手术明细率', '101014', null, 'where not exists(select 1 from TB_CIS_OPERATION_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+where not exists(select 1 from TB_CIS_IH_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+where not exists(select 1 from TB_HIS_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+where not exists(select 1 from TB_CIS_LH_FEE_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+where not exists(select 1 from TB_CIS_LH_SUMMARY a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+where not exists(select 1 from TB_LIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+where not exists(select 1 from TB_RIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+where not exists(select 1 from TB_CIS_IH_DIAGNOSIS_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+where not exists(select 1 from TB_CIS_LH_DIAGNOSIS_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+where not exists(select 1 from TB_CIS_OPERATION_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)
+101012住院就诊记录信息-住院医嘱明细率          TB_CIS_IH_DOCTOR_ADVICE
+101007住院就诊记录信息-收费率              TB_HIS_FEE_RECORD
+101017住院就诊记录信息-住院费用结算明细率        TB_CIS_LH_FEE_DETAIL
+101015住院就诊记录信息-出院小结率            TB_CIS_LH_SUMMARY
+101026住院就诊记录信息-实验室检验报告率         TB_LIS_REPORT
+101030住院就诊记录信息-医学影像检查报告率        TB_RIS_REPORT
+101019住院就诊记录信息-在院诊断明细率          TB_CIS_IH_DIAGNOSIS_DETAIL
+101020住院就诊记录信息-出院诊断明细率          TB_CIS_LH_DIAGNOSIS_DETAIL
+101014住院就诊记录信息-手术明细率            TB_CIS_OPERATION_DETAIL
+
+
+
+
+
+( '101027500028', '实验室检验报告信息-检验结果指标率', '101027', null, 'where not exists(select 1 from TB_LIS_INDICATOR a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.EXAM_REPORT_ID=t.EXAM_REPORT_ID)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101028500029', '实验室检验报告信息-细菌结果率', '101028', null, 'where not exists(select 1 from TB_LIS_BACTERIA_RESULT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.EXAM_REPORT_ID=t.EXAM_REPORT_ID)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101029500030', '实验室检验报告信息-药敏结果率', '101029', null, 'where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.EXAM_REPORT_ID=t.EXAM_REPORT_ID)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+where not exists(select 1 from TB_LIS_INDICATOR a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.EXAM_REPORT_ID=t.EXAM_REPORT_ID)
+where not exists(select 1 from TB_LIS_BACTERIA_RESULT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.EXAM_REPORT_ID=t.EXAM_REPORT_ID)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.EXAM_REPORT_ID=t.EXAM_REPORT_ID)
+101027实验室检验报告信息-检验结果指标率         TB_LIS_INDICATOR
+101028实验室检验报告信息-细菌结果率           TB_LIS_BACTERIA_RESULT
+101029实验室检验报告信息-药敏结果率           TB_LIS_ALLERGY_RESULT
+
+
+
+
+( '101001500031', '个人信息-不良反应记录率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500032', '儿童免疫基本信息-禁忌信息率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500033', '儿童免疫基本信息-传染病率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500034', '个人信息-接种信息率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500035', '从业人员基本信息-健康检查结果率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500036', '从业人员基本信息-健康证率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500037', '个人信息-传染病报告率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500038', '个人信息-死亡医学证明率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500039', '个人信息-肿瘤病例基本信息率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500040', '儿童免疫基本信息-儿童接种信息率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500041', '儿童免疫基本信息-儿童迁入迁出信息率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500042', '个人信息-献血个人信息率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+( '101001500043', '献血个人信息-采血信息率', '101001', null, '', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+
+
+500031个人信息-不良反应记录率
+500032儿童免疫基本信息-禁忌信息率
+500033儿童免疫基本信息-传染病率
+500034个人信息-接种信息率
+500035从业人员基本信息-健康检查结果率
+500036从业人员基本信息-健康证率
+500037个人信息-传染病报告率
+500038个人信息-死亡医学证明率
+500039个人信息-肿瘤病例基本信息率
+500040儿童免疫基本信息-儿童接种信息率
+500041儿童免疫基本信息-儿童迁入迁出信息率
+500042个人信息-献血个人信息率
+500043献血个人信息-采血信息率
+
+个人信息不良反应记录（Aefi_Record）关联 个人信息表
+儿童免疫基本信息禁忌信息（Contraindication_Information）关联 儿童免疫基本信息
+儿童免疫基本信息传染病（Infectious_Disease）关联 儿童免疫基本信息
+个人信息接种信息（Inoculation_Information）关联 个人信息表
+从业人员基本信息健康检查结果（Physical_Examination_Result）关联 从业人员基本信息
+从业人员基本信息健康证(Health_Certificate) 关联 从业人员基本信息
+个人信息传染病报告(Infectious_Disease_Report) 关联 个人信息表
+个人信息死亡医学证明(Death_Medical_Certification) 关联 个人信息表
+个人信息肿瘤病例基本信息(Cancer_Basic_Information) 关联 个人信息表
+儿童免疫基本信息儿童接种信息(Children_Inoculation_Info) 关联 儿童免疫基本信息
+儿童免疫基本信息儿童迁入迁出信息(Children_Migration_Info) 关联 儿童免疫基本信息
+个人信息献血个人信息(Blood_Donor_Information) 关联 个人信息表
+献血个人信息采血信息(Blood_Collection_Information) 关联献血个人信息
+
+
+
+
+患者基本信息挂号率(tb_cis_op_registration) 关联 患者信息表
+患者基本信息收费率(tb_his_fee_record) 关联 患者信息表
+患者基本信息入院登记率(tb_cis_admission_register) 关联 患者信息表
+患者基本信息出院登记率(tb_cis_discharge_register) 关联 患者信息表
+患者基本信息在/出院结算率(tb_cis_discharge_register) 关联 患者信息表
+患者基本信息门诊就诊记录率(tb_cis_op_visiting_record) 关联 患者信息表
+患者基本信息门诊处方明细率(tb_cis_op_doctor_advice) 关联 患者信息表
+患者基本信息住院就诊记录率(tb_cis_ih_visiting_record) 关联 患者信息表
+患者基本信息住院医嘱明细率(tb_cis_ih_doctor_advice) 关联 患者信息表
+患者基本信息住院费用结算率(tb_cis_lh_fee_detail) 关联 患者信息表
+患者基本信息实验室检验报告率(tb_lis_report) 关联 患者信息表
+患者基本信息医学影像检查报告率(tb_ris_report) 关联 患者信息表
+患者基本信息手术明细率(tb_cis_operation_detail) 关联 患者信息表
+患者基本信息出院小结率(tb_cis_lh_summary) 关联 患者信息表
+
+门诊就诊记录信息门诊处方明细表(tb_cis_op_doctor_advice) 关联 门诊就诊记录表
+门诊就诊记录信息收费表(tb_his_fee_record) 关联 门诊就诊记录表
+门诊就诊记录信息实验室检验报告表头(tb_lis_report) 关联 门诊就诊记录表
+门诊就诊记录信息医学影像检查报告表(tb_ris_report) 关联 门诊就诊记录表
+
+住院就诊记录信息住院医嘱明细表(tb_cis_ih_doctor_advice) 关联 住院就诊记录表
+住院就诊记录信息收费表(tb_cis_lh_fee_detail) 关联 住院就诊记录表
+住院就诊记录信息住院费用结算明细表(tb_cis_lh_fee_detail) 关联 住院就诊记录表
+住院就诊记录信息出院小结表(tb_cis_lh_summary) 关联 住院就诊记录表
+住院就诊记录信息实验室检验报告表头(tb_lis_report) 关联 住院就诊记录表
+住院就诊记录信息医学影像检查报告表(tb_ris_report) 关联 住院就诊记录表
+住院就诊记录信息在院诊断明细表(tb_cis_ih_diagnosis_detail) 关联 住院就诊记录表
+住院就诊记录信息出院诊断明细表(tb_cis_lh_diagnosis_detail) 关联 住院就诊记录表
+住院就诊记录信息手术明细表(tb_cis_operation_detail) 关联 住院就诊记录表
+
+实验室检验报告信息检验结果指标表(tb_lis_indicator) 关联 实验室检验报告表头
+实验室检验报告信息细菌结果表(tb_lis_bacteria_result) 关联 实验室检验报告表头
+实验室检验报告信息药敏结果表(tb_lis_allergy_result) 关联 实验室检验报告表头
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101002500001', '患者基本信息-挂号率', '101002', null, 'where not exists(select 1 from TB_CIS_OP_REGISTRATION a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101007500002', '患者基本信息-收费率', '101007', null, 'where not exists(select 1 from TB_HIS_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101009500003', '患者基本信息-入院登记率', '101009', null, 'where not exists(select 1 from TB_CIS_ADMISSION_REGISTER a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101010500004', '患者基本信息-出院登记率', '101010', null, 'where not exists(select 1 from TB_CIS_DISCHARGE_REGISTER a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101016500005', '患者基本信息-在/出院结算率', '101016', null, 'where not exists(select 1 from TB_CIS_LH_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101003500006', '患者基本信息-门诊就诊记录率', '101003', null, 'where not exists(select 1 from TB_CIS_OP_VISITING_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101005500007', '患者基本信息-门诊处方明细率', '101005', null, 'where not exists(select 1 from TB_CIS_OP_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101011500008', '患者基本信息-住院就诊记录率', '101011', null, 'where not exists(select 1 from TB_CIS_IH_VISITING_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101012500009', '患者基本信息-住院医嘱明细率', '101012', null, 'where not exists(select 1 from TB_CIS_IH_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101017500010', '患者基本信息-住院费用结算率', '101017', null, 'where not exists(select 1 from TB_CIS_LH_FEE_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101026500011', '患者基本信息-实验室检验报告率', '101026', null, 'where not exists(select 1 from TB_LIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101030500012', '患者基本信息-医学影像检查报告率', '101030', null, 'where not exists(select 1 from TB_RIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101014500013', '患者基本信息-手术明细率', '101014', null, 'where not exists(select 1 from TB_CIS_OPERATION_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101015500014', '患者基本信息-出院小结率', '101015', null, 'where not exists(select 1 from TB_CIS_LH_SUMMARY a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.FILE_NUMBER=t.FILE_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-03-27 09:57:31','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101005500015', '门诊就诊记录信息-门诊处方明细率', '101005', null, 'where not exists(select 1 from TB_CIS_OP_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-05-22 16:36:36','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101007500016', '门诊就诊记录信息-收费率', '101007', null, 'where not exists(select 1 from TB_HIS_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-05-22 16:36:36','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101026500017', '门诊就诊记录信息-实验室检验报告率 ', '101026', null, 'where not exists(select 1 from TB_LIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-05-22 16:36:36','YYYY-MM-DD HH24:MI:SS'));
+insert into "SMART_INFO"."T_D1_IDX_RELATION" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values ( '101030500018', '门诊就诊记录信息-医学影像检查报告率', '101030', null, 'where not exists(select 1 from TB_RIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, TO_DATE('2018-05-22 16:36:36','YYYY-MM-DD HH24:MI:SS'));
+
+
+
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101012500019', '住院就诊记录信息-住院医嘱明细率', '101012', null, 'where not exists(select 1 from TB_CIS_IH_DOCTOR_ADVICE a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101007500020', '住院就诊记录信息-收费率', '101007', null, 'where not exists(select 1 from TB_HIS_FEE_RECORD a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101017500021', '住院就诊记录信息-住院费用结算明细率', '101017', null, 'where not exists(select 1 from TB_CIS_LH_FEE_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101015500022', '住院就诊记录信息-出院小结率', '101015', null, 'where not exists(select 1 from TB_CIS_LH_SUMMARY a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101026500023', '住院就诊记录信息-实验室检验报告率', '101026', null, 'where not exists(select 1 from TB_LIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101030500024', '住院就诊记录信息-医学影像检查报告率', '101030', null, 'where not exists(select 1 from TB_RIS_REPORT a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101019500025', '住院就诊记录信息-在院诊断明细率', '101019', null, 'where not exists(select 1 from TB_CIS_IH_DIAGNOSIS_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101020500026', '住院就诊记录信息-出院诊断明细率', '101020', null, 'where not exists(select 1 from TB_CIS_LH_DIAGNOSIS_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '101014500027', '住院就诊记录信息-手术明细率', '101014', null, 'where not exists(select 1 from TB_CIS_OPERATION_DETAIL a where a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE and a.VISITING_SERIAL_NUMBER=t.VISITING_SERIAL_NUMBER)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+

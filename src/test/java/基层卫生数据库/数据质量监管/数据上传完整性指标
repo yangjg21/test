@@ -1,0 +1,795 @@
+
+
+
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+
+
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056031', '个人基本信息 -- 建档信息 完整性', '201001', null, 'where not exists(select 1 from PERSONAL_FILE_INFORMATION a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056032', '个人基本信息 -- 个人健康信息 完整性', '201001', null, 'where not exists(select 1 from PERSONAL_HEALTH_INFORMATION a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056033', '个人基本信息 -- 既往史 完整性', '201001', null, 'where not exists(select 1 from PERSONAL_DISEASE_HISTORY a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.CONSULT_INSTITUT_TYPE_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056034', '个人基本信息 -- 疾病史 完整性', '201001', null, 'where not exists(select 1 from PERSONAL_DIS_HISTORY a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056035', '个人基本信息 -- 手术史 完整性', '201001', null, 'where not exists(select 1 from PERSONAL_OPERATION_HISTORY a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.OPERATION_INSTITUTE_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056036', '个人基本信息 -- 外伤史 完整性', '201001', null, 'where not exists(select 1 from PERSONAL_TRAUMA_HISTORY a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.TRAUMA_DIAG_INSTITUTE_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056037', '个人基本信息 -- 输血史 完整性', '201001', null, 'where not exists(select 1 from PERSONAL_BLOOD_HISTORY a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056038', '个人基本信息 -- 药物过敏史 完整性', '201001', null, 'where not exists(select 1 from PERSONAL_ALLERGY_HISTORY a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056039', '个人基本信息 -- 生育史 完整性', '201001', null, 'where not exists(select 1 from PERSONAL_DELIVERY_HISTORY a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.DELIVERY_INSTITUTE_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056040', '个人基本信息 -- 住院史 完整性', '201001', null, 'where not exists(select 1 from PERSONAL_RESIDENT_HISTORY a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056041', '个人基本信息 -- 个人健康档案首页 完整性', '201001', null, 'where not exists(select 1 from TB_CHSS_GRJKDA a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056042', '个人基本信息 -- 高血压病例基本信息 完整性', '201001', null, 'where not exists(select 1 from HYPERTENSION_BASIC_INFO a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056043', '个人基本信息 -- 高血压病例随访记录 完整性', '201001', null, 'where not exists(select 1 from HYPERTENSION_FOLLOW_UP a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.FOLLOW_UP_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056044', '个人基本信息 -- 高血压用药记录 完整性', '201001', null, 'where not exists(select 1 from HYPERTENSION_DRUG_RECORD a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056045', '个人基本信息 -- 糖尿病病例基本信息 完整性', '201001', null, 'where not exists(select 1 from DIABETES_BASIC_INFORMATION a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056046', '个人基本信息 -- 糖尿病病例随访记录 完整性', '201001', null, 'where not exists(select 1 from DIABETES_FOLLOW_UP_RECORD a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.FOLLOW_UP_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056047', '个人基本信息 -- 糖尿病用药记录 完整性', '201001', null, 'where not exists(select 1 from DIABETIC_DRUG_RECORD a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056048', '个人基本信息 -- 肿瘤病例基本信息 完整性', '201001', null, 'where not exists(select 1 from CANCER_BASIC_INFORMATION a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056049', '个人基本信息 -- 精神分裂症病例基本信息 完整性', '201001', null, 'where not exists(select 1 from SCHIZOPHRENIA_BASIC_INFO a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056050', '个人基本信息 -- 精神分裂症病例随访记录 完整性', '201001', null, 'where not exists(select 1 from SCHIZOPHRENIA_FOLLOW_UP a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.FOLLOW_UP_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056051', '个人基本信息 -- 精神分裂症患者用药记录 完整性', '201001', null, 'where not exists(select 1 from SCHIZOPHRENIA_DRUG_RECORD a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056052', '个人基本信息 -- 精神病住院医疗救助 完整性', '201001', null, 'where not exists(select 1 from SCHIZOPHRENIA_MED_AID a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056053', '个人基本信息 -- 精神病家族史记录 完整性', '201001', null, 'where not exists(select 1 from SCHIZOPHRENIA_FAMILY_HIS a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056054', '个人基本信息 -- 肺结核病专项卡 完整性', '201001', null, 'where not exists(select 1 from GW037_MBGL_FJH_JD a where a.JKDABH=t.BASIC_PERSONAL_INFO_NO and a.JDJG_DM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056055', '个人基本信息 -- 肺结核病随访记录 完整性', '201001', null, 'where not exists(select 1 from GW038_MBGL_FJH_SF a where a.JKDABH=t.BASIC_PERSONAL_INFO_NO and a.SFJG_DM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056056', '个人基本信息 -- 老年人基本信息 完整性', '201001', null, 'where not exists(select 1 from THEOLD_BASIC_INFO a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056057', '个人基本信息 -- 老年人随访记录 完整性', '201001', null, 'where not exists(select 1 from THEOLD_FOLLOW_UP a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.FOLLOW_UP_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056058', '个人基本信息 -- 老年人用药记录 完整性', '201001', null, 'where not exists(select 1 from THEOLD_DRUG_RECORD a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056059', '个人基本信息 -- 老年人健康体检 完整性', '201001', null, 'where not exists(select 1 from THEOLD_HEALTH_EXAM a where a.HEALTH_FILE_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056060', '个人基本信息 -- 残疾人基本信息 完整性', '201001', null, 'where not exists(select 1 from DISABLED_BASIC_INFORMATION a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056061', '个人基本信息 -- 儿童基本信息 完整性', '201001', null, 'where not exists(select 1 from CHILDREN_BASIC_INFO a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056062', '个人基本信息 -- 接种信息 完整性', '201001', null, 'where not exists(select 1 from CHILDREN_INOCULAT_INFO a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INOCULATION_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056063', '个人基本信息 -- 异常反应史 完整性', '201001', null, 'where not exists(select 1 from CHILDREN_ABNOR_MALREACTION a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.RECORD_INSTITUTE_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056064', '个人基本信息 -- 周岁婴儿健康体检 完整性', '201001', null, 'where not exists(select 1 from TB_JKTJ_ZSET a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056065', '个人基本信息 -- 1-6 岁儿童健康检查 完整性', '201001', null, 'where not exists(select 1 from TB_JKTJ_LSYX a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056066', '个人基本信息 -- 中小学在校学生健康体检 完整性', '201001', null, 'where not exists(select 1 from TB_JKTJ_ZXXSJKTJ a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056067', '个人基本信息 -- 7岁—64岁人群健康体检 完整性', '201001', null, 'where not exists(select 1 from TB_JKTJ_SIXRQJKTJ a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056068', '个人基本信息 -- 65 岁及以上老年人健康体检 完整性', '201001', null, 'where not exists(select 1 from TB_JKTJ_LNRJKTJ a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056069', '个人基本信息 -- 全民健康体检居民基本情况自填 完整性', '201001', null, 'where not exists(select 1 from TB_JKTJ_JMJBQK a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056070', '个人基本信息 -- 育龄妇女全民健康体检 完整性', '201001', null, 'where not exists(select 1 from TB_JKTJ_YLFNJKTJ a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056071', '个人基本信息 -- 老年人中医药健康管理服务记录 完整性', '201001', null, 'where not exists(select 1 from GW058_ZYYGL_LNR a where a.JKDABH=t.BASIC_PERSONAL_INFO_NO and a.DJJG_DM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056072', '个人基本信息 -- 6～18月龄儿童中医药健康管理服务记录 完整性', '201001', null, 'where not exists(select 1 from GW059_ETZYGL01 a where a.JKDABH=t.BASIC_PERSONAL_INFO_NO and a.SFJG_DM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056073', '个人基本信息 -- 24～36月龄儿童中医药健康管理服务记录 完整性', '201001', null, 'where not exists(select 1 from GW060_ETZYGL02 a where a.JKDABH=t.BASIC_PERSONAL_INFO_NO and a.SFJG_DM=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056074', '个人基本信息 -- 家庭健康信息 完整性', '201001', null, 'where not exists(select 1 from FAMILY_HEALTH_INFORMATION a where a.HOUSEHOLDER_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.REGISTRATION_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056075', '个人基本信息 -- 家庭成员关系 完整性', '201001', null, 'where not exists(select 1 from FAMILY_MEMBERS_RELATIONSHIP a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+
+
+
+
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.CONSULT_INSTITUT_TYPE_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.OPERATION_INSTITUTE_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.TRAUMA_DIAG_INSTITUTE_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.DELIVERY_INSTITUTE_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.FOLLOW_UP_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.FOLLOW_UP_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.FOLLOW_UP_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.JKDABH=t.BASIC_PERSONAL_INFO_NO and a.JDJG_DM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.JKDABH=t.BASIC_PERSONAL_INFO_NO and a.SFJG_DM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.FOLLOW_UP_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.HEALTH_FILE_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INSTITUTION_CODE_BUILDING_FILE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.INOCULATION_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.RECORD_INSTITUTE_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.GRDAID=t.BASIC_PERSONAL_INFO_NO and a.YLJGDM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.JKDABH=t.BASIC_PERSONAL_INFO_NO and a.DJJG_DM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.JKDABH=t.BASIC_PERSONAL_INFO_NO and a.SFJG_DM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.JKDABH=t.BASIC_PERSONAL_INFO_NO and a.SFJG_DM=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.HOUSEHOLDER_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.REGISTRATION_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+where not exists(select 1 from TB_LIS_ALLERGY_RESULT a where a.BASIC_PERSONAL_INFO_NO=t.BASIC_PERSONAL_INFO_NO and a.MEDICAL_INSTITUTION_CODE=t.MEDICAL_INSTITUTION_CODE)
+
+
+MEDICAL_INSTITUTION_CODE   INSTITUTION_CODE_BUILDING_FILE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   CONSULT_INSTITUT_TYPE_CODE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   OPERATION_INSTITUTE_CODE
+MEDICAL_INSTITUTION_CODE   TRAUMA_DIAG_INSTITUTE_CODE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   DELIVERY_INSTITUTE_CODE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   YLJGDM
+MEDICAL_INSTITUTION_CODE   INSTITUTION_CODE_BUILDING_FILE
+MEDICAL_INSTITUTION_CODE   FOLLOW_UP_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   INSTITUTION_CODE_BUILDING_FILE
+MEDICAL_INSTITUTION_CODE   FOLLOW_UP_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   INSTITUTION_CODE_BUILDING_FILE
+MEDICAL_INSTITUTION_CODE   INSTITUTION_CODE_BUILDING_FILE
+MEDICAL_INSTITUTION_CODE   FOLLOW_UP_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   JDJG_DM
+MEDICAL_INSTITUTION_CODE   SFJG_DM
+MEDICAL_INSTITUTION_CODE   INSTITUTION_CODE_BUILDING_FILE
+MEDICAL_INSTITUTION_CODE   FOLLOW_UP_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   INSTITUTION_CODE_BUILDING_FILE
+MEDICAL_INSTITUTION_CODE   INSTITUTION_CODE_BUILDING_FILE
+MEDICAL_INSTITUTION_CODE   INOCULATION_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   RECORD_INSTITUTE_CODE
+MEDICAL_INSTITUTION_CODE   YLJGDM
+MEDICAL_INSTITUTION_CODE   YLJGDM
+MEDICAL_INSTITUTION_CODE   YLJGDM
+MEDICAL_INSTITUTION_CODE   YLJGDM
+MEDICAL_INSTITUTION_CODE   YLJGDM
+MEDICAL_INSTITUTION_CODE   YLJGDM
+MEDICAL_INSTITUTION_CODE   YLJGDM
+MEDICAL_INSTITUTION_CODE   DJJG_DM
+MEDICAL_INSTITUTION_CODE   SFJG_DM
+MEDICAL_INSTITUTION_CODE   SFJG_DM
+MEDICAL_INSTITUTION_CODE   REGISTRATION_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE   MEDICAL_INSTITUTION_CODE
+
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO GRDAID
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO JKDABH
+BASIC_PERSONAL_INFO_NO JKDABH
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO HEALTH_FILE_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+BASIC_PERSONAL_INFO_NO GRDAID
+BASIC_PERSONAL_INFO_NO GRDAID
+BASIC_PERSONAL_INFO_NO GRDAID
+BASIC_PERSONAL_INFO_NO GRDAID
+BASIC_PERSONAL_INFO_NO GRDAID
+BASIC_PERSONAL_INFO_NO GRDAID
+BASIC_PERSONAL_INFO_NO GRDAID
+BASIC_PERSONAL_INFO_NO JKDABH
+BASIC_PERSONAL_INFO_NO JKDABH
+BASIC_PERSONAL_INFO_NO JKDABH
+BASIC_PERSONAL_INFO_NO HOUSEHOLDER_INFO_NO
+BASIC_PERSONAL_INFO_NO BASIC_PERSONAL_INFO_NO
+
+
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056076', '高血压病例基本信息 -- 高血压病例随访记录 完整性', '201013', null, 'where not exists(select 1 from HYPERTENSION_FOLLOW_UP a where a.HYPERTENSION_FILE_NUMBER=t.HYPERTENSION_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056077', '高血压病例基本信息 -- 高血压辅助检查记录 完整性', '201013', null, 'where not exists(select 1 from HYPERTENSION_ACCESSORY_TEST a where a.HYPERTENSION_FILE_NUMBER=t.HYPERTENSION_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056078', '高血压病例基本信息 -- 高血压用药记录 完整性', '201013', null, 'where not exists(select 1 from HYPERTENSION_DRUG_RECORD a where a.HYPERTENSION_FILE_NUMBER=t.HYPERTENSION_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056079', '高血压病例基本信息 -- 高血压社区分组记录 完整性', '201013', null, 'where not exists(select 1 from HYPERTENSION_GXYSQFZJL a where a.HYPERTENSION_FILE_NUMBER=t.CID and a.YLJGDM=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056080', '高血压病例随访记录 -- 高血压辅助检查记录 完整性', '201014', null, 'where not exists(select 1 from HYPERTENSION_ACCESSORY_TEST a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056081', '高血压病例随访记录 -- 高血压用药记录 完整性', '201014', null, 'where not exists(select 1 from HYPERTENSION_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056082', '糖尿病病例基本信息 -- 糖尿病病例随访记录 完整性', '201018', null, 'where not exists(select 1 from DIABETES_FOLLOW_UP_RECORD a where a.DIABETIC_FILE_NUMBER=t.DIABETIC_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056083', '糖尿病病例基本信息 -- 糖尿病辅助检查记录 完整性', '201018', null, 'where not exists(select 1 from DIABETIC_ACCESSORY_TEST a where a.DIABETIC_FILE_NUMBER=t.DIABETIC_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056084', '糖尿病病例基本信息 -- 糖尿病用药记录 完整性', '201018', null, 'where not exists(select 1 from DIABETIC_DRUG_RECORD a where a.DIABETIC_FILE_NUMBER=t.DIABETIC_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056085', '糖尿病病例随访记录 -- 糖尿病辅助检查记录 完整性', '201019', null, 'where not exists(select 1 from DIABETIC_ACCESSORY_TEST a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056086', '糖尿病病例随访记录 -- 糖尿病用药记录 完整性', '201019', null, 'where not exists(select 1 from DIABETIC_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056087', '肿瘤病例基本信息 -- 肿瘤病例随访记录 完整性', '201022', null, 'where not exists(select 1 from CANCER_FOLLOW_UP_RECORD a where a.CANCER_PATIENTS_FILE_NUMBER=t.CANCER_PATIENTS_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056088', '肿瘤病例基本信息 -- 肿瘤质控 完整性', '201022', null, 'where not exists(select 1 from CANCER_QUALITY_CONTROL a where a.CANCER_PATIENTS_FILE_NUMBER=t.CANCER_PATIENTS_FILE_NUMBER and a.QC_UNIT_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056089', '肿瘤病例基本信息 -- 肿瘤辅助检查记录 完整性', '201022', null, 'where not exists(select 1 from CANCER_ACCESSORY_TEST_RECORD a where a.CANCER_PATIENTS_FILE_NUMBER=t.CANCER_PATIENTS_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056090', '肿瘤病例基本信息 -- 肿瘤患者用药记录 完整性', '201022', null, 'where not exists(select 1 from CANCER_PATIENTS_DRUG_RECORD a where a.CANCER_PATIENTS_FILE_NUMBER=t.CANCER_PATIENTS_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDI', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056091', '肿瘤病例随访记录 -- 肿瘤辅助检查记录 完整性', '201023', null, 'where not exists(select 1 from CANCER_ACCESSORY_TEST_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056092', '肿瘤病例随访记录 -- 肿瘤患者用药记录 完整性', '201023', null, 'where not exists(select 1 from CANCER_PATIENTS_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056093', '精神分裂症病例基本信息 -- 精神分裂症病例随访记录 完整性', '201028', null, 'where not exists(select 1 from SCHIZOPHRENIA_FOLLOW_UP a where a.SCHIZOPHRENIA_FILE_NUMBER=t.SCHIZOPHRENIA_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FIL', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056094', '精神分裂症病例基本信息 -- 精神分裂症辅助检查记录 完整性', '201028', null, 'where not exists(select 1 from SCHIZOPHRENIA_ACCESSORY_TEST a where a.SCHIZOPHRENIA_FILE_NUMBER=t.SCHIZOPHRENIA_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FIL', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056095', '精神分裂症病例基本信息 -- 精神分裂症患者用药记录 完整性', '201028', null, 'where not exists(select 1 from SCHIZOPHRENIA_DRUG_RECORD a where a.SCHIZOPHRENIA_FILE_NUMBER=t.SCHIZOPHRENIA_FILE_NUMBER and a.INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056096', '精神分裂症病例基本信息 -- 精神病住院医疗救助 完整性', '201028', null, 'where not exists(select 1 from SCHIZOPHRENIA_MED_AID a where a.SCHIZOPHRENIA_FILE_NUMBER=t.SCHIZOPHRENIA_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056097', '精神分裂症病例基本信息 -- 精神病家族史记录 完整性', '201028', null, 'where not exists(select 1 from SCHIZOPHRENIA_FAMILY_HIS a where a.SCHIZOPHRENIA_FILE_NUMBER=t.SCHIZOPHRENIA_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056098', '精神分裂症病例随访记录 -- 精神分裂症辅助检查记录 完整性', '201029', null, 'where not exists(select 1 from SCHIZOPHRENIA_ACCESSORY_TEST a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056099', '精神分裂症病例随访记录 -- 精神分裂症患者用药记录 完整性', '201029', null, 'where not exists(select 1 from SCHIZOPHRENIA_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056100', '肺结核病专项卡 -- 肺结核病随访记录 完整性', '201034', null, 'where not exists(select 1 from GW038_MBGL_FJH_SF a where a.ZXDABH=t.ZXDABH and a.SFJG_DM=t.JDJG_DM)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056101', '老年人基本信息 -- 老年人随访记录 完整性', '201036', null, 'where not exists(select 1 from THEOLD_FOLLOW_UP a where a.THE_OLD_FILE_NUMBER=t.THE_OLD_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056102', '老年人基本信息 -- 老年人辅助检查记录 完整性', '201036', null, 'where not exists(select 1 from THEOLD_ACCESSORY_TEST a where a.THE_OLD_FILE_NUMBER=t.THE_OLD_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056103', '老年人基本信息 -- 老年人用药记录 完整性', '201036', null, 'where not exists(select 1 from THEOLD_DRUG_RECORD a where a.THE_OLD_FILE_NUMBER=t.THE_OLD_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056104', '老年人基本信息 -- 老年人生活自理评估 完整性', '201036', null, 'where not exists(select 1 from THEOLD_LIVING_ASSESS a where a.THE_OLD_FILE_NUMBER=t.THE_OLD_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056105', '老年人随访记录 -- 老年人辅助检查记录 完整性', '201037', null, 'where not exists(select 1 from THEOLD_ACCESSORY_TEST a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056106', '老年人随访记录 -- 老年人用药记录 完整性', '201037', null, 'where not exists(select 1 from THEOLD_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056107', '残疾人基本信息 -- 残疾人随访记录 完整性', '201042', null, 'where not exists(select 1 from DISABLED_FOLLOW_UP_RECORD a where a.DISABLED_FILE_NUMBER=t.DISABLED_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056108', '残疾人基本信息 -- 残疾人辅助检查记录 完整性', '201042', null, 'where not exists(select 1 from DISABLED_ACCESSORY_TEST a where a.DISABLED_FILE_NUMBER=t.DISABLED_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056109', '残疾人基本信息 -- 残疾人用药记录 完整性', '201042', null, 'where not exists(select 1 from DISABLED_DRUG_RECORD a where a.DISABLED_FILE_NUMBER=t.DISABLED_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056110', '残疾人随访记录 -- 残疾人辅助检查记录 完整性', '201043', null, 'where not exists(select 1 from DISABLED_ACCESSORY_TEST a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056111', '残疾人随访记录 -- 残疾人用药记录 完整性', '201043', null, 'where not exists(select 1 from DISABLED_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056112', '儿童基本信息 -- 接种信息 完整性', '201046', null, 'where not exists(select 1 from CHILDREN_INOCULAT_INFO a where a.CHILDREN_NUMBER=t.CHILDREN_NUMBER and a.INOCULATION_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056113', '儿童基本信息 -- 异常反应史 完整性', '201046', null, 'where not exists(select 1 from CHILDREN_ABNOR_MALREACTION a where a.CHILDREN_NUMBER=t.CHILDREN_NUMBER and a.RECORD_INSTITUTE_CODE=t.INSTITUTION_CODE_BUILDING_FILE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+insert into "SMART_INFO"."T_D1_IDX_FULL" ( "ID", "IDX_NM", "F_TAB_CD", "CHE_DES", "STR_SQL", "ERR_LEVEL_CD", "MODIFY_GUIDE", "SCORE_RULE_NM", "SCORE_RULE_CD", "IS_LOG", "IS_SCORE", "REMARK", "STAT", "MODIFY_TM", "MODIF_UID", "CREATE_UID", "CREATE_TM") values
+( '4401056114', '接种信息 -- 异常反应史 完整性', '201047', null, 'where not exists(select 1 from CHILDREN_ABNOR_MALREACTION a where a.INOCULATION_SERIAL_NUMBER=t.INOCULATION_SERIAL_NUMBER and a.RECORD_INSTITUTE_CODE=t.INOCULATION_INSTITUTION_CODE)', '2', null, '按比率计分', 'S10001', '1', '1', null, '1', null, null, null, to_date(to_char(sysdate,'yyyy-mm-dd hh24:mi:ss'),'yyyy-mm-dd hh24:mi:ss'));
+
+
+where not exists(select 1 from HYPERTENSION_FOLLOW_UP a where a.HYPERTENSION_FILE_NUMBER=t.HYPERTENSION_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from HYPERTENSION_ACCESSORY_TEST a where a.HYPERTENSION_FILE_NUMBER=t.HYPERTENSION_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from HYPERTENSION_DRUG_RECORD a where a.HYPERTENSION_FILE_NUMBER=t.HYPERTENSION_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from HYPERTENSION_GXYSQFZJL a where a.HYPERTENSION_FILE_NUMBER=t.CID and a.YLJGDM=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from HYPERTENSION_ACCESSORY_TEST a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from HYPERTENSION_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from DIABETES_FOLLOW_UP_RECORD a where a.DIABETIC_FILE_NUMBER=t.DIABETIC_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from DIABETIC_ACCESSORY_TEST a where a.DIABETIC_FILE_NUMBER=t.DIABETIC_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from DIABETIC_DRUG_RECORD a where a.DIABETIC_FILE_NUMBER=t.DIABETIC_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from DIABETIC_ACCESSORY_TEST a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from DIABETIC_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from CANCER_FOLLOW_UP_RECORD a where a.CANCER_PATIENTS_FILE_NUMBER=t.CANCER_PATIENTS_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from CANCER_QUALITY_CONTROL a where a.CANCER_PATIENTS_FILE_NUMBER=t.CANCER_PATIENTS_FILE_NUMBER and a.QC_UNIT_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from CANCER_ACCESSORY_TEST_RECORD a where a.CANCER_PATIENTS_FILE_NUMBER=t.CANCER_PATIENTS_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from CANCER_PATIENTS_DRUG_RECORD a where a.CANCER_PATIENTS_FILE_NUMBER=t.CANCER_PATIENTS_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from CANCER_ACCESSORY_TEST_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from CANCER_PATIENTS_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from SCHIZOPHRENIA_FOLLOW_UP a where a.SCHIZOPHRENIA_FILE_NUMBER=t.SCHIZOPHRENIA_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from SCHIZOPHRENIA_ACCESSORY_TEST a where a.SCHIZOPHRENIA_FILE_NUMBER=t.SCHIZOPHRENIA_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from SCHIZOPHRENIA_DRUG_RECORD a where a.SCHIZOPHRENIA_FILE_NUMBER=t.SCHIZOPHRENIA_FILE_NUMBER and a.INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from SCHIZOPHRENIA_MED_AID a where a.SCHIZOPHRENIA_FILE_NUMBER=t.SCHIZOPHRENIA_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from SCHIZOPHRENIA_FAMILY_HIS a where a.SCHIZOPHRENIA_FILE_NUMBER=t.SCHIZOPHRENIA_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from SCHIZOPHRENIA_ACCESSORY_TEST a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from SCHIZOPHRENIA_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from GW038_MBGL_FJH_SF a where a.ZXDABH=t.ZXDABH and a.SFJG_DM=t.JDJG_DM)
+where not exists(select 1 from THEOLD_FOLLOW_UP a where a.THE_OLD_FILE_NUMBER=t.THE_OLD_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from THEOLD_ACCESSORY_TEST a where a.THE_OLD_FILE_NUMBER=t.THE_OLD_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from THEOLD_DRUG_RECORD a where a.THE_OLD_FILE_NUMBER=t.THE_OLD_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from THEOLD_LIVING_ASSESS a where a.THE_OLD_FILE_NUMBER=t.THE_OLD_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from THEOLD_ACCESSORY_TEST a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from THEOLD_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from DISABLED_FOLLOW_UP_RECORD a where a.DISABLED_FILE_NUMBER=t.DISABLED_FILE_NUMBER and a.FOLLOW_UP_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from DISABLED_ACCESSORY_TEST a where a.DISABLED_FILE_NUMBER=t.DISABLED_FILE_NUMBER and a.TEST_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from DISABLED_DRUG_RECORD a where a.DISABLED_FILE_NUMBER=t.DISABLED_FILE_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from DISABLED_ACCESSORY_TEST a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.TEST_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from DISABLED_DRUG_RECORD a where a.FOLLOW_UP_NUMBER=t.FOLLOW_UP_NUMBER and a.MEDICAL_INSTITUTION_CODE=t.FOLLOW_UP_INSTITUTION_CODE)
+where not exists(select 1 from CHILDREN_INOCULAT_INFO a where a.CHILDREN_NUMBER=t.CHILDREN_NUMBER and a.INOCULATION_INSTITUTION_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from CHILDREN_ABNOR_MALREACTION a where a.CHILDREN_NUMBER=t.CHILDREN_NUMBER and a.RECORD_INSTITUTE_CODE=t.INSTITUTION_CODE_BUILDING_FILE)
+where not exists(select 1 from CHILDREN_ABNOR_MALREACTION a where a.INOCULATION_SERIAL_NUMBER=t.INOCULATION_SERIAL_NUMBER and a.RECORD_INSTITUTE_CODE=t.INOCULATION_INSTITUTION_CODE)
+
+
+
+HYPERTENSION_FILE_NUMBER
+HYPERTENSION_FILE_NUMBER
+HYPERTENSION_FILE_NUMBER
+HYPERTENSION_FILE_NUMBER
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+DIABETIC_FILE_NUMBER
+DIABETIC_FILE_NUMBER
+DIABETIC_FILE_NUMBER
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+CANCER_PATIENTS_FILE_NUMBER
+CANCER_PATIENTS_FILE_NUMBER
+CANCER_PATIENTS_FILE_NUMBER
+CANCER_PATIENTS_FILE_NUMBER
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+SCHIZOPHRENIA_FILE_NUMBER
+SCHIZOPHRENIA_FILE_NUMBER
+SCHIZOPHRENIA_FILE_NUMBER
+SCHIZOPHRENIA_FILE_NUMBER
+SCHIZOPHRENIA_FILE_NUMBER
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+ZXDABH
+THE_OLD_FILE_NUMBER
+THE_OLD_FILE_NUMBER
+THE_OLD_FILE_NUMBER
+THE_OLD_FILE_NUMBER
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+DISABLED_FILE_NUMBER
+DISABLED_FILE_NUMBER
+DISABLED_FILE_NUMBER
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+CHILDREN_NUMBER
+CHILDREN_NUMBER
+INOCULATION_SERIAL_NUMBER
+
+
+
+HYPERTENSION_FILE_NUMBER
+HYPERTENSION_FILE_NUMBER
+HYPERTENSION_FILE_NUMBER
+CID
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+DIABETIC_FILE_NUMBER
+DIABETIC_FILE_NUMBER
+DIABETIC_FILE_NUMBER
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+CANCER_PATIENTS_FILE_NUMBER
+CANCER_PATIENTS_FILE_NUMBER
+CANCER_PATIENTS_FILE_NUMBER
+CANCER_PATIENTS_FILE_NUMBER
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+SCHIZOPHRENIA_FILE_NUMBER
+SCHIZOPHRENIA_FILE_NUMBER
+SCHIZOPHRENIA_FILE_NUMBER
+SCHIZOPHRENIA_FILE_NUMBER
+SCHIZOPHRENIA_FILE_NUMBER
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+ZXDABH
+THE_OLD_FILE_NUMBER
+THE_OLD_FILE_NUMBER
+THE_OLD_FILE_NUMBER
+THE_OLD_FILE_NUMBER
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+DISABLED_FILE_NUMBER
+DISABLED_FILE_NUMBER
+DISABLED_FILE_NUMBER
+FOLLOW_UP_NUMBER
+FOLLOW_UP_NUMBER
+CHILDREN_NUMBER
+CHILDREN_NUMBER
+INOCULATION_SERIAL_NUMBER
+
+
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+FOLLOW_UP_INSTITUTION_CODE
+FOLLOW_UP_INSTITUTION_CODE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+FOLLOW_UP_INSTITUTION_CODE
+FOLLOW_UP_INSTITUTION_CODE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+FOLLOW_UP_INSTITUTION_CODE
+FOLLOW_UP_INSTITUTION_CODE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+FOLLOW_UP_INSTITUTION_CODE
+FOLLOW_UP_INSTITUTION_CODE
+JDJG_DM
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+FOLLOW_UP_INSTITUTION_CODE
+FOLLOW_UP_INSTITUTION_CODE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+FOLLOW_UP_INSTITUTION_CODE
+FOLLOW_UP_INSTITUTION_CODE
+INSTITUTION_CODE_BUILDING_FILE
+INSTITUTION_CODE_BUILDING_FILE
+INOCULATION_INSTITUTION_CODE
+
+FOLLOW_UP_INSTITUTION_CODE
+TEST_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+YLJGDM
+TEST_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+FOLLOW_UP_INSTITUTION_CODE
+TEST_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+TEST_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+FOLLOW_UP_INSTITUTION_CODE
+QC_UNIT_CODE
+TEST_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+TEST_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+FOLLOW_UP_INSTITUTION_CODE
+TEST_INSTITUTION_CODE
+INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+TEST_INSTITUTION_CODE
+INSTITUTION_CODE
+SFJG_DM
+FOLLOW_UP_INSTITUTION_CODE
+TEST_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+TEST_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+FOLLOW_UP_INSTITUTION_CODE
+TEST_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+TEST_INSTITUTION_CODE
+MEDICAL_INSTITUTION_CODE
+INOCULATION_INSTITUTION_CODE
+RECORD_INSTITUTE_CODE
+RECORD_INSTITUTE_CODE
+
+
+
+
+
+201001  个人基本信息 -- 建档信息 完整性（PERSONAL_FILE_INFORMATION）
+201001  个人基本信息 -- 个人健康信息 完整性（PERSONAL_HEALTH_INFORMATION）
+201001  个人基本信息 -- 既往史 完整性（PERSONAL_DISEASE_HISTORY）
+201001  个人基本信息 -- 疾病史 完整性（PERSONAL_DIS_HISTORY）
+201001  个人基本信息 -- 手术史 完整性（PERSONAL_OPERATION_HISTORY）
+201001  个人基本信息 -- 外伤史 完整性（PERSONAL_TRAUMA_HISTORY）
+201001  个人基本信息 -- 输血史 完整性（PERSONAL_BLOOD_HISTORY）
+201001  个人基本信息 -- 药物过敏史 完整性（PERSONAL_ALLERGY_HISTORY）
+201001  个人基本信息 -- 生育史 完整性（PERSONAL_DELIVERY_HISTORY）
+201001  个人基本信息 -- 住院史 完整性（PERSONAL_RESIDENT_HISTORY）
+201001  个人基本信息 -- 个人健康档案首页 完整性（TB_CHSS_GRJKDA）
+201001  个人基本信息 -- 高血压病例基本信息 完整性（HYPERTENSION_BASIC_INFO）
+201001  个人基本信息 -- 高血压病例随访记录 完整性（HYPERTENSION_FOLLOW_UP）
+201001  个人基本信息 -- 高血压用药记录 完整性（HYPERTENSION_DRUG_RECORD）
+201001  个人基本信息 -- 糖尿病病例基本信息 完整性（DIABETES_BASIC_INFORMATION）
+201001  个人基本信息 -- 糖尿病病例随访记录 完整性（DIABETES_FOLLOW_UP_RECORD）
+201001  个人基本信息 -- 糖尿病用药记录 完整性（DIABETIC_DRUG_RECORD）
+201001  个人基本信息 -- 肿瘤病例基本信息 完整性（CANCER_BASIC_INFORMATION）
+201001  个人基本信息 -- 精神分裂症病例基本信息 完整性（SCHIZOPHRENIA_BASIC_INFO）
+201001  个人基本信息 -- 精神分裂症病例随访记录 完整性（SCHIZOPHRENIA_FOLLOW_UP）
+201001  个人基本信息 -- 精神分裂症患者用药记录 完整性（SCHIZOPHRENIA_DRUG_RECORD）
+201001  个人基本信息 -- 精神病住院医疗救助 完整性（SCHIZOPHRENIA_MED_AID）
+201001  个人基本信息 -- 精神病家族史记录 完整性（SCHIZOPHRENIA_FAMILY_HIS）
+201001  个人基本信息 -- 肺结核病专项卡 完整性（GW037_MBGL_FJH_JD）
+201001  个人基本信息 -- 肺结核病随访记录 完整性（GW038_MBGL_FJH_SF）
+201001  个人基本信息 -- 老年人基本信息 完整性（THEOLD_BASIC_INFO）
+201001  个人基本信息 -- 老年人随访记录 完整性（THEOLD_FOLLOW_UP）
+201001  个人基本信息 -- 老年人用药记录 完整性（THEOLD_DRUG_RECORD）
+201001  个人基本信息 -- 老年人健康体检 完整性（THEOLD_HEALTH_EXAM）
+201001  个人基本信息 -- 残疾人基本信息 完整性（DISABLED_BASIC_INFORMATION）
+201001  个人基本信息 -- 儿童基本信息 完整性（CHILDREN_BASIC_INFO）
+201001  个人基本信息 -- 接种信息 完整性（CHILDREN_INOCULAT_INFO）
+201001  个人基本信息 -- 异常反应史 完整性（CHILDREN_ABNOR_MALREACTION）
+201001  个人基本信息 -- 周岁婴儿健康体检 完整性（TB_JKTJ_ZSET）
+201001  个人基本信息 -- 1-6 岁儿童健康检查 完整性（TB_JKTJ_LSYX）
+201001  个人基本信息 -- 中小学在校学生健康体检 完整性（TB_JKTJ_ZXXSJKTJ）
+201001  个人基本信息 -- 7岁—64岁人群健康体检 完整性（TB_JKTJ_SIXRQJKTJ）
+201001  个人基本信息 -- 65 岁及以上老年人健康体检 完整性（TB_JKTJ_LNRJKTJ）
+201001  个人基本信息 -- 全民健康体检居民基本情况自填 完整性（TB_JKTJ_JMJBQK）
+201001  个人基本信息 -- 育龄妇女全民健康体检 完整性（TB_JKTJ_YLFNJKTJ）
+201001  个人基本信息 -- 老年人中医药健康管理服务记录 完整性（GW058_ZYYGL_LNR）
+201001  个人基本信息 -- 6～18月龄儿童中医药健康管理服务记录 完整性（GW059_ETZYGL01）
+201001  个人基本信息 -- 24～36月龄儿童中医药健康管理服务记录 完整性（GW060_ETZYGL02）
+201001  个人基本信息 -- 家庭健康信息 完整性（FAMILY_HEALTH_INFORMATION）
+201001  个人基本信息 -- 家庭成员关系 完整性（FAMILY_MEMBERS_RELATIONSHIP）
+
+201013  高血压病例基本信息 -- 高血压病例随访记录 完整性（HYPERTENSION_FOLLOW_UP）
+201013  高血压病例基本信息 -- 高血压辅助检查记录 完整性（HYPERTENSION_ACCESSORY_TEST）
+201013  高血压病例基本信息 -- 高血压用药记录 完整性（HYPERTENSION_DRUG_RECORD）
+201013  高血压病例基本信息 -- 高血压社区分组记录 完整性（HYPERTENSION_GXYSQFZJL）
+201014  高血压病例随访记录 -- 高血压辅助检查记录 完整性（HYPERTENSION_ACCESSORY_TEST）
+201014  高血压病例随访记录 -- 高血压用药记录 完整性（HYPERTENSION_DRUG_RECORD）
+201018  糖尿病病例基本信息 -- 糖尿病病例随访记录 完整性（DIABETES_FOLLOW_UP_RECORD）
+201018  糖尿病病例基本信息 -- 糖尿病辅助检查记录 完整性（DIABETIC_ACCESSORY_TEST）
+201018  糖尿病病例基本信息 -- 糖尿病用药记录 完整性（DIABETIC_DRUG_RECORD）
+201019  糖尿病病例随访记录 -- 糖尿病辅助检查记录 完整性（DIABETIC_ACCESSORY_TEST）
+201019  糖尿病病例随访记录 -- 糖尿病用药记录 完整性（DIABETIC_DRUG_RECORD）
+201022  肿瘤病例基本信息 -- 肿瘤病例随访记录 完整性（CANCER_FOLLOW_UP_RECORD）
+201022  肿瘤病例基本信息 -- 肿瘤质控 完整性（CANCER_QUALITY_CONTROL）
+201022  肿瘤病例基本信息 -- 肿瘤辅助检查记录 完整性（CANCER_ACCESSORY_TEST_RECORD）
+201022  肿瘤病例基本信息 -- 肿瘤患者用药记录 完整性（CANCER_PATIENTS_DRUG_RECORD）
+201023  肿瘤病例随访记录 -- 肿瘤辅助检查记录 完整性（CANCER_ACCESSORY_TEST_RECORD）
+201023  肿瘤病例随访记录 -- 肿瘤患者用药记录 完整性（CANCER_PATIENTS_DRUG_RECORD）
+201028  精神分裂症病例基本信息 -- 精神分裂症病例随访记录 完整性（SCHIZOPHRENIA_FOLLOW_UP）
+201028  精神分裂症病例基本信息 -- 精神分裂症辅助检查记录 完整性（SCHIZOPHRENIA_ACCESSORY_TEST）
+201028  精神分裂症病例基本信息 -- 精神分裂症患者用药记录 完整性（SCHIZOPHRENIA_DRUG_RECORD）
+201028  精神分裂症病例基本信息 -- 精神病住院医疗救助 完整性（SCHIZOPHRENIA_MED_AID）
+201028  精神分裂症病例基本信息 -- 精神病家族史记录 完整性（SCHIZOPHRENIA_FAMILY_HIS）
+201029  精神分裂症病例随访记录 -- 精神分裂症辅助检查记录 完整性（SCHIZOPHRENIA_ACCESSORY_TEST）
+201029  精神分裂症病例随访记录 -- 精神分裂症患者用药记录 完整性（SCHIZOPHRENIA_DRUG_RECORD）
+201034  肺结核病专项卡 -- 肺结核病随访记录 完整性（GW038_MBGL_FJH_SF）
+201036  老年人基本信息 -- 老年人随访记录 完整性（THEOLD_FOLLOW_UP）
+201036  老年人基本信息 -- 老年人辅助检查记录 完整性（THEOLD_ACCESSORY_TEST）
+201036  老年人基本信息 -- 老年人用药记录 完整性（THEOLD_DRUG_RECORD）
+201036  老年人基本信息 -- 老年人生活自理评估 完整性（THEOLD_LIVING_ASSESS）
+201037  老年人随访记录 -- 老年人辅助检查记录 完整性（THEOLD_ACCESSORY_TEST）
+201037  老年人随访记录 -- 老年人用药记录 完整性（THEOLD_DRUG_RECORD）
+201042  残疾人基本信息 -- 残疾人随访记录 完整性（DISABLED_FOLLOW_UP_RECORD）
+201042  残疾人基本信息 -- 残疾人辅助检查记录 完整性（DISABLED_ACCESSORY_TEST）
+201042  残疾人基本信息 -- 残疾人用药记录 完整性（DISABLED_DRUG_RECORD）
+201043  残疾人随访记录 -- 残疾人辅助检查记录 完整性（DISABLED_ACCESSORY_TEST）
+201043  残疾人随访记录 -- 残疾人用药记录 完整性（DISABLED_DRUG_RECORD）
+201046  儿童基本信息 -- 接种信息 完整性（CHILDREN_INOCULAT_INFO）
+201046  儿童基本信息 -- 异常反应史 完整性（CHILDREN_ABNOR_MALREACTION）
+201047  接种信息 -- 异常反应史 完整性（CHILDREN_ABNOR_MALREACTION）
+
+
+
+201001  个人基本信息 -- 建档信息 完整性
+201001  个人基本信息 -- 个人健康信息 完整性
+201001  个人基本信息 -- 既往史 完整性
+201001  个人基本信息 -- 疾病史 完整性
+201001  个人基本信息 -- 手术史 完整性
+201001  个人基本信息 -- 外伤史 完整性
+201001  个人基本信息 -- 输血史 完整性
+201001  个人基本信息 -- 药物过敏史 完整性
+201001  个人基本信息 -- 生育史 完整性
+201001  个人基本信息 -- 住院史 完整性
+201001  个人基本信息 -- 个人健康档案首页 完整性
+201001  个人基本信息 -- 高血压病例基本信息 完整性
+201001  个人基本信息 -- 高血压病例随访记录 完整性
+201001  个人基本信息 -- 高血压用药记录 完整性
+201001  个人基本信息 -- 糖尿病病例基本信息 完整性
+201001  个人基本信息 -- 糖尿病病例随访记录 完整性
+201001  个人基本信息 -- 糖尿病用药记录 完整性
+201001  个人基本信息 -- 肿瘤病例基本信息 完整性
+201001  个人基本信息 -- 精神分裂症病例基本信息 完整性
+201001  个人基本信息 -- 精神分裂症病例随访记录 完整性
+201001  个人基本信息 -- 精神分裂症患者用药记录 完整性
+201001  个人基本信息 -- 精神病住院医疗救助 完整性
+201001  个人基本信息 -- 精神病家族史记录 完整性
+201001  个人基本信息 -- 肺结核病专项卡 完整性
+201001  个人基本信息 -- 肺结核病随访记录 完整性
+201001  个人基本信息 -- 老年人基本信息 完整性
+201001  个人基本信息 -- 老年人随访记录 完整性
+201001  个人基本信息 -- 老年人用药记录 完整性
+201001  个人基本信息 -- 老年人健康体检 完整性
+201001  个人基本信息 -- 残疾人基本信息 完整性
+201001  个人基本信息 -- 儿童基本信息 完整性
+201001  个人基本信息 -- 接种信息 完整性
+201001  个人基本信息 -- 异常反应史 完整性
+201001  个人基本信息 -- 周岁婴儿健康体检 完整性
+201001  个人基本信息 -- 1-6 岁儿童健康检查 完整性
+201001  个人基本信息 -- 中小学在校学生健康体检 完整性
+201001  个人基本信息 -- 7岁—64岁人群健康体检 完整性
+201001  个人基本信息 -- 65 岁及以上老年人健康体检 完整性
+201001  个人基本信息 -- 全民健康体检居民基本情况自填 完整性
+201001  个人基本信息 -- 育龄妇女全民健康体检 完整性
+201001  个人基本信息 -- 老年人中医药健康管理服务记录 完整性
+201001  个人基本信息 -- 6～18月龄儿童中医药健康管理服务记录 完整性
+201001  个人基本信息 -- 24～36月龄儿童中医药健康管理服务记录 完整性
+201001  个人基本信息 -- 家庭健康信息 完整性
+201001  个人基本信息 -- 家庭成员关系 完整性
+201013  高血压病例基本信息 -- 高血压病例随访记录 完整性
+201013  高血压病例基本信息 -- 高血压辅助检查记录 完整性
+201013  高血压病例基本信息 -- 高血压用药记录 完整性
+201013  高血压病例基本信息 -- 高血压社区分组记录 完整性
+201014  高血压病例随访记录 -- 高血压辅助检查记录 完整性
+201014  高血压病例随访记录 -- 高血压用药记录 完整性
+201018  糖尿病病例基本信息 -- 糖尿病病例随访记录 完整性
+201018  糖尿病病例基本信息 -- 糖尿病辅助检查记录 完整性
+201018  糖尿病病例基本信息 -- 糖尿病用药记录 完整性
+201019  糖尿病病例随访记录 -- 糖尿病辅助检查记录 完整性
+201019  糖尿病病例随访记录 -- 糖尿病用药记录 完整性
+201022  肿瘤病例基本信息 -- 肿瘤病例随访记录 完整性
+201022  肿瘤病例基本信息 -- 肿瘤质控 完整性
+201022  肿瘤病例基本信息 -- 肿瘤辅助检查记录 完整性
+201022  肿瘤病例基本信息 -- 肿瘤患者用药记录 完整性
+201023  肿瘤病例随访记录 -- 肿瘤辅助检查记录 完整性
+201023  肿瘤病例随访记录 -- 肿瘤患者用药记录 完整性
+201028  精神分裂症病例基本信息 -- 精神分裂症病例随访记录 完整性
+201028  精神分裂症病例基本信息 -- 精神分裂症辅助检查记录 完整性
+201028  精神分裂症病例基本信息 -- 精神分裂症患者用药记录 完整性
+201028  精神分裂症病例基本信息 -- 精神病住院医疗救助 完整性
+201028  精神分裂症病例基本信息 -- 精神病家族史记录 完整性
+201029  精神分裂症病例随访记录 -- 精神分裂症辅助检查记录 完整性
+201029  精神分裂症病例随访记录 -- 精神分裂症患者用药记录 完整性
+201034  肺结核病专项卡 -- 肺结核病随访记录 完整性
+201036  老年人基本信息 -- 老年人随访记录 完整性
+201036  老年人基本信息 -- 老年人辅助检查记录 完整性
+201036  老年人基本信息 -- 老年人用药记录 完整性
+201036  老年人基本信息 -- 老年人生活自理评估 完整性
+201037  老年人随访记录 -- 老年人辅助检查记录 完整性
+201037  老年人随访记录 -- 老年人用药记录 完整性
+201042  残疾人基本信息 -- 残疾人随访记录 完整性
+201042  残疾人基本信息 -- 残疾人辅助检查记录 完整性
+201042  残疾人基本信息 -- 残疾人用药记录 完整性
+201043  残疾人随访记录 -- 残疾人辅助检查记录 完整性
+201043  残疾人随访记录 -- 残疾人用药记录 完整性
+201046  儿童基本信息 -- 接种信息 完整性
+201046  儿童基本信息 -- 异常反应史 完整性
+201047  接种信息 -- 异常反应史 完整性
+
+
+
+
+
+
+
+PERSONAL_FILE_INFORMATION
+PERSONAL_HEALTH_INFORMATION
+PERSONAL_DISEASE_HISTORY
+PERSONAL_DIS_HISTORY
+PERSONAL_OPERATION_HISTORY
+PERSONAL_TRAUMA_HISTORY
+PERSONAL_BLOOD_HISTORY
+PERSONAL_ALLERGY_HISTORY
+PERSONAL_DELIVERY_HISTORY
+PERSONAL_RESIDENT_HISTORY
+TB_CHSS_GRJKDA
+HYPERTENSION_BASIC_INFO
+HYPERTENSION_FOLLOW_UP
+HYPERTENSION_DRUG_RECORD
+DIABETES_BASIC_INFORMATION
+DIABETES_FOLLOW_UP_RECORD
+DIABETIC_DRUG_RECORD
+CANCER_BASIC_INFORMATION
+SCHIZOPHRENIA_BASIC_INFO
+SCHIZOPHRENIA_FOLLOW_UP
+SCHIZOPHRENIA_DRUG_RECORD
+SCHIZOPHRENIA_MED_AID
+SCHIZOPHRENIA_FAMILY_HIS
+GW037_MBGL_FJH_JD
+GW038_MBGL_FJH_SF
+THEOLD_BASIC_INFO
+THEOLD_FOLLOW_UP
+THEOLD_DRUG_RECORD
+THEOLD_HEALTH_EXAM
+DISABLED_BASIC_INFORMATION
+CHILDREN_BASIC_INFO
+CHILDREN_INOCULAT_INFO
+CHILDREN_ABNOR_MALREACTION
+TB_JKTJ_ZSET
+TB_JKTJ_LSYX
+TB_JKTJ_ZXXSJKTJ
+TB_JKTJ_SIXRQJKTJ
+TB_JKTJ_LNRJKTJ
+TB_JKTJ_JMJBQK
+TB_JKTJ_YLFNJKTJ
+GW058_ZYYGL_LNR
+GW059_ETZYGL01
+GW060_ETZYGL02
+FAMILY_HEALTH_INFORMATION
+FAMILY_MEMBERS_RELATIONSHIP
+
+HYPERTENSION_FOLLOW_UP
+HYPERTENSION_ACCESSORY_TEST
+HYPERTENSION_DRUG_RECORD
+HYPERTENSION_GXYSQFZJL
+HYPERTENSION_ACCESSORY_TEST
+HYPERTENSION_DRUG_RECORD
+DIABETES_FOLLOW_UP_RECORD
+DIABETIC_ACCESSORY_TEST
+DIABETIC_DRUG_RECORD
+DIABETIC_ACCESSORY_TEST
+DIABETIC_DRUG_RECORD
+CANCER_FOLLOW_UP_RECORD
+CANCER_QUALITY_CONTROL
+CANCER_ACCESSORY_TEST_RECORD
+CANCER_PATIENTS_DRUG_RECORD
+CANCER_ACCESSORY_TEST_RECORD
+CANCER_PATIENTS_DRUG_RECORD
+SCHIZOPHRENIA_FOLLOW_UP
+SCHIZOPHRENIA_ACCESSORY_TEST
+SCHIZOPHRENIA_DRUG_RECORD
+SCHIZOPHRENIA_MED_AID
+SCHIZOPHRENIA_FAMILY_HIS
+SCHIZOPHRENIA_ACCESSORY_TEST
+SCHIZOPHRENIA_DRUG_RECORD
+GW038_MBGL_FJH_SF
+THEOLD_FOLLOW_UP
+THEOLD_ACCESSORY_TEST
+THEOLD_DRUG_RECORD
+THEOLD_LIVING_ASSESS
+THEOLD_ACCESSORY_TEST
+THEOLD_DRUG_RECORD
+DISABLED_FOLLOW_UP_RECORD
+DISABLED_ACCESSORY_TEST
+DISABLED_DRUG_RECORD
+DISABLED_ACCESSORY_TEST
+DISABLED_DRUG_RECORD
+CHILDREN_INOCULAT_INFO
+CHILDREN_ABNOR_MALREACTION
+CHILDREN_ABNOR_MALREACTION
